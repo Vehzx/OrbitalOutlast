@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Character.uasset",
+				"C:/Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_2DCamera.uasset",
+				"C:/Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerController.uasset",
+				"C:/Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_GameMode.uasset",
+				"C:/Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Default/8/O2/M70O3IPNY4HR1I1543US1O.uasset",
+				"C:/Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/NewBlueprint.uasset",
+				"C:/Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Default/3/NW/EFZIX3AKPA1ANTUGDD54N8.uasset",
 				"C:/Users/lw941/UnityGames/UniProject/Content/Game/BP/BP_Character.uasset",
 				"C:/Users/lw941/UnityGames/UniProject/Content/Game/BP/BP_Projectile.uasset",
 				"C:/Users/lw941/UnityGames/UniProject/Content/Game/BP/BP_PlayerController.uasset",
