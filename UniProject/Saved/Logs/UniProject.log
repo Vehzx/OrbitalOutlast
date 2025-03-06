@@ -4723,3 +4723,35 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.03.06-21.07.47:583][472]LogContentValidation: Display: Validating /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds_C /Game/Level/Default.Default:PersistentLevel.BP_PlayerBounds_C_UAID_CC96E5111A775D4F02_2072481291
 [2025.03.06-21.07.47:583][472]LogContentValidation: Display: Validating /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds_C /Game/Level/Default.Default:PersistentLevel.BP_PlayerBounds_C_UAID_CC96E5111A775D4F02_2043492290
 [2025.03.06-21.07.47:583][472]LogContentValidation: Display: Validating /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds_C /Game/Level/Default.Default:PersistentLevel.BP_PlayerBounds_C_UAID_CC96E5111A775D4F02_2009899289
+[2025.03.06-21.23.52:094][418]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2025.03.06-21.23.52:297][418]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=34316
+[2025.03.06-21.23.52:582][419]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d860b3c8-fced-43d1-9461-0c85ffb632b6}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=57.81
+[2025.03.06-21.23.52:582][419]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.03.06-21.23.52:585][419]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.03.06-21.23.55:171][427]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.03.06-21.24.37:832][428]LogUdpMessaging: Display: Added local interface '192.168.1.151' to multicast group '230.0.0.1:6666'
+[2025.03.06-21.25.11:424][404]Cmd: MODE GRID=0
+[2025.03.06-21.25.25:641][348]BlueprintLog: New page: Compile BP_PlayerBounds
+[2025.03.06-21.25.25:772][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2025.03.06-21.25.26:565][386]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-21.25.26:891][386]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_PlayerBounds" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerBounds.uasset" SILENT=true
+[2025.03.06-21.25.26:947][386]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_PlayerBounds
+[2025.03.06-21.25.26:948][386]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_PlayerBounds47E116944CD72948DD88B586E66CB0C0.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerBounds.uasset'
+[2025.03.06-21.25.27:004][386]LogFileHelpers: InternalPromptForCheckoutAndSave took 438 ms (total: 14.2 sec)
+[2025.03.06-21.25.27:015][386]AssetCheck: New page: Asset Save: BP_PlayerBounds
+[2025.03.06-21.25.27:016][386]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds
+[2025.03.06-21.25.36:219][939]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.06-21.25.36:502][939]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Default/D/0D/KBT2IKXUIM5ILGH6A6FZIH
+[2025.03.06-21.25.36:504][939]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/KBT2IKXUIM5ILGH6A6FZIH4FE3DBCB4FA2E54F21C3F3857C8D853E.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Default/D/0D/KBT2IKXUIM5ILGH6A6FZIH.uasset'
+[2025.03.06-21.25.36:512][939]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Default/6/0Y/KYP47KF2ORC3C97LDGMTA3
+[2025.03.06-21.25.36:514][939]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/KYP47KF2ORC3C97LDGMTA3C951EAC441E46AE73C742196996057D6.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Default/6/0Y/KYP47KF2ORC3C97LDGMTA3.uasset'
+[2025.03.06-21.25.36:524][939]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Default/C/J8/LVH7THRNMXP8MPQKZUDRRX
+[2025.03.06-21.25.36:525][939]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/LVH7THRNMXP8MPQKZUDRRX9E5AA28244883D8049DCD6933C4FDB59.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Default/C/J8/LVH7THRNMXP8MPQKZUDRRX.uasset'
+[2025.03.06-21.25.36:535][939]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/Level/Default/1/H3/1PHI6CYH98SGO2YO40GZBF
+[2025.03.06-21.25.36:537][939]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/1PHI6CYH98SGO2YO40GZBFD5D7394F47791F1195C25F819E705E88.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Default/1/H3/1PHI6CYH98SGO2YO40GZBF.uasset'
+[2025.03.06-21.25.36:583][939]LogFileHelpers: InternalPromptForCheckoutAndSave took 363 ms (total: 14.6 sec)
+[2025.03.06-21.25.36:590][939]AssetCheck: New page: Asset Save: multiple assets
+[2025.03.06-21.25.36:590][939]LogContentValidation: Display: Validating /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds_C /Game/Level/Default.Default:PersistentLevel.BP_PlayerBounds_C_UAID_CC96E5111A775D4F02_2009899289
+[2025.03.06-21.25.36:590][939]LogContentValidation: Display: Validating /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds_C /Game/Level/Default.Default:PersistentLevel.BP_PlayerBounds_C_UAID_CC96E5111A775D4F02_1786076288
+[2025.03.06-21.25.36:590][939]LogContentValidation: Display: Validating /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds_C /Game/Level/Default.Default:PersistentLevel.BP_PlayerBounds_C_UAID_CC96E5111A775D4F02_2072481291
+[2025.03.06-21.25.36:590][939]LogContentValidation: Display: Validating /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds_C /Game/Level/Default.Default:PersistentLevel.BP_PlayerBounds_C_UAID_CC96E5111A775D4F02_2043492290
