@@ -2574,3 +2574,90 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.03.08-11.47.44:949][  2]AssetCheck: New page: Asset Save: BP_PlayerBounds
 [2025.03.08-11.47.44:949][  2]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds
 [2025.03.08-11.47.47:149][144]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2025.03.08-11.52.11:186][330]BlueprintLog: New page: Compile BP_PlayerBounds
+[2025.03.08-11.52.11:344][330]LogUObjectHash: Compacting FUObjectHashTables data took   2.31ms
+[2025.03.08-11.52.12:022][345]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.08-11.52.12:194][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_PlayerBounds" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerBounds.uasset" SILENT=true
+[2025.03.08-11.52.12:304][345]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_PlayerBounds
+[2025.03.08-11.52.12:307][345]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_PlayerBoundsC2E42B574FE87C22565FB59D9986A97E.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerBounds.uasset'
+[2025.03.08-11.52.12:365][345]LogFileHelpers: InternalPromptForCheckoutAndSave took 342 ms (total: 13.4 sec)
+[2025.03.08-11.52.12:376][345]AssetCheck: New page: Asset Save: BP_PlayerBounds
+[2025.03.08-11.52.12:376][345]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds
+[2025.03.08-11.52.16:149][476]LogUObjectHash: Compacting FUObjectHashTables data took   1.97ms
+[2025.03.08-11.54.20:257][287]LogSlate: Warning: Ignoring SetUserFocus because it's not an active modal Window (user 0 not set to SGraphPanel [SGraphEditorImpl.cpp(735)].
+[2025.03.08-11.54.20:439][287]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2025.03.08-11.54.20:443][287]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/StartLevel' took 0.066
+[2025.03.08-11.54.20:444][287]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game/BP/BP_PlayerBounds] ([2] browsable assets)...
+[2025.03.08-11.54.20:444][287]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/BP/BP_PlayerBounds]
+[2025.03.08-11.54.20:546][287]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Game/BP/BP_PlayerBounds_Auto2
+[2025.03.08-11.54.20:546][287]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_PlayerBounds_Auto22F1A68E74D70A83D529D2C8961C8AD53.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/Autosaves/Game/Game/BP/BP_PlayerBounds_Auto2.uasset'
+[2025.03.08-11.54.20:552][287]LogFileHelpers: Auto-saving content packages took 0.109
+[2025.03.08-11.55.27:949][990]BlueprintLog: New page: Compile BP_PlayerBounds
+[2025.03.08-11.55.28:097][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.03.08-11.55.28:877][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.08-11.55.29:143][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_PlayerBounds" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerBounds.uasset" SILENT=true
+[2025.03.08-11.55.29:286][ 13]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_PlayerBounds
+[2025.03.08-11.55.29:289][ 13]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_PlayerBounds3197844743E612211DB81BAD9C2A6C09.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerBounds.uasset'
+[2025.03.08-11.55.29:336][ 13]LogFileHelpers: InternalPromptForCheckoutAndSave took 459 ms (total: 13.9 sec)
+[2025.03.08-11.55.29:349][ 13]AssetCheck: New page: Asset Save: BP_PlayerBounds
+[2025.03.08-11.55.29:349][ 13]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds
+[2025.03.08-11.55.38:111][661]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2025.03.08-11.55.50:142][279]LogSlate: Window 'Color Picker' being destroyed
+[2025.03.08-11.56.00:979][676]LogSlate: Window 'Color Picker' being destroyed
+[2025.03.08-11.56.16:332][268]LogSlate: Window 'Color Picker' being destroyed
+[2025.03.08-11.56.30:899][842]LogSlate: Window 'Color Picker' being destroyed
+[2025.03.08-11.56.40:549][837]BlueprintLog: New page: Compile BP_PlayerBounds
+[2025.03.08-11.56.40:656][837]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.03.08-11.56.41:421][880]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.08-11.56.41:557][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_PlayerBounds" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerBounds.uasset" SILENT=true
+[2025.03.08-11.56.41:622][880]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_PlayerBounds
+[2025.03.08-11.56.41:624][880]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_PlayerBoundsE95717144253E93851416FA311CFA8C5.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerBounds.uasset'
+[2025.03.08-11.56.41:652][880]LogFileHelpers: InternalPromptForCheckoutAndSave took 229 ms (total: 14.1 sec)
+[2025.03.08-11.56.41:656][880]AssetCheck: New page: Asset Save: BP_PlayerBounds
+[2025.03.08-11.56.41:656][880]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds
+[2025.03.08-11.58.25:849][ 18]LogSlate: Window 'Color Picker' being destroyed
+[2025.03.08-11.59.51:283][622]LogSlate: Window 'Color Picker' being destroyed
+[2025.03.08-11.59.52:688][689]BlueprintLog: New page: Compile BP_PlayerBounds
+[2025.03.08-11.59.52:839][689]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.03.08-11.59.53:642][730]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.08-11.59.53:790][730]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_PlayerBounds" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerBounds.uasset" SILENT=true
+[2025.03.08-11.59.53:869][730]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_PlayerBounds
+[2025.03.08-11.59.53:872][730]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_PlayerBounds29DD7FDD41654DDF32E93ABFD84F1DAE.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerBounds.uasset'
+[2025.03.08-11.59.53:904][730]LogFileHelpers: InternalPromptForCheckoutAndSave took 262 ms (total: 14.4 sec)
+[2025.03.08-11.59.53:911][730]AssetCheck: New page: Asset Save: BP_PlayerBounds
+[2025.03.08-11.59.53:912][730]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds
+[2025.03.08-12.00.05:171][292]LogSlate: Window 'Color Picker' being destroyed
+[2025.03.08-12.00.09:883][752]BlueprintLog: New page: Compile BP_PlayerBounds
+[2025.03.08-12.00.10:000][752]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.03.08-12.00.10:712][810]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.08-12.00.10:898][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_PlayerBounds" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerBounds.uasset" SILENT=true
+[2025.03.08-12.00.11:015][810]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_PlayerBounds
+[2025.03.08-12.00.11:018][810]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_PlayerBounds9584158446F7927B9B1C0794E867FDE3.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerBounds.uasset'
+[2025.03.08-12.00.11:060][810]LogFileHelpers: InternalPromptForCheckoutAndSave took 346 ms (total: 14.7 sec)
+[2025.03.08-12.00.11:073][810]AssetCheck: New page: Asset Save: BP_PlayerBounds
+[2025.03.08-12.00.11:074][810]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds
+[2025.03.08-12.00.12:932][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2025.03.08-12.00.18:734][ 25]LogEditorTransaction: Undo Move Node
+[2025.03.08-12.15.49:789][ 71]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2025.03.08-12.15.49:858][ 71]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=23832
+[2025.03.08-12.15.50:193][ 72]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d860b3c8-fced-43d1-9461-0c85ffb632b6}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=63.66
+[2025.03.08-12.15.50:193][ 72]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.03.08-12.15.50:194][ 72]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.03.08-12.15.53:986][ 84]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.03.08-13.25.52:969][ 84]LogUObjectHash: Compacting FUObjectHashTables data took   4.09ms
+[2025.03.08-13.25.52:975][ 84]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/StartLevel' took 0.060
+[2025.03.08-13.25.52:976][ 84]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Game/BP/BP_PlayerBounds] ([2] browsable assets)...
+[2025.03.08-13.25.52:976][ 84]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/BP/BP_PlayerBounds]
+[2025.03.08-13.25.53:116][ 84]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Game/BP/BP_PlayerBounds_Auto3
+[2025.03.08-13.25.53:118][ 84]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_PlayerBounds_Auto34EA7B6E7456A2EFDA2CE8F9767947361.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/Autosaves/Game/Game/BP/BP_PlayerBounds_Auto3.uasset'
+[2025.03.08-13.25.53:121][ 84]LogFileHelpers: Auto-saving content packages took 0.145
+[2025.03.08-13.25.53:930][ 85]LogUdpMessaging: Display: Added local interface '192.168.1.151' to multicast group '230.0.0.1:6666'
+[2025.03.08-13.26.06:594][201]BlueprintLog: New page: Compile BP_PlayerBounds
+[2025.03.08-13.26.06:711][201]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.03.08-13.26.07:326][222]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.03.08-13.26.07:549][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_PlayerBounds" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerBounds.uasset" SILENT=true
+[2025.03.08-13.26.07:605][222]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_PlayerBounds
+[2025.03.08-13.26.07:605][222]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_PlayerBounds2FB8BDD5406E638BE7FB4FBCB86BA834.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerBounds.uasset'
+[2025.03.08-13.26.07:663][222]LogFileHelpers: InternalPromptForCheckoutAndSave took 336 ms (total: 15.0 sec)
+[2025.03.08-13.26.07:670][222]AssetCheck: New page: Asset Save: BP_PlayerBounds
+[2025.03.08-13.26.07:670][222]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds
