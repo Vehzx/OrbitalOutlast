@@ -5,11 +5,6 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/mw2ve/Documents/GitHub/OrbitalOutlast/UniProject/Content/Game/BP/BP_GravityMeteor.uasset",
-				"C:/Users/mw2ve/Documents/GitHub/OrbitalOutlast/UniProject/Content/Game/BP/BP_Character.uasset",
-				"C:/Users/mw2ve/Documents/GitHub/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Testing/1/BK/J917PQM1LEL624X09X4BBL.uasset",
-				"C:/Users/mw2ve/Documents/GitHub/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Testing/A/FA/X3S1JA44RZCS7EVZGQ9RXK.uasset",
-				"C:/Users/mw2ve/Documents/GitHub/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Testing/3/TS/NHRL2RIUS14ENDLUV5FB6V.uasset",
 				"C:/Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_PlayerBounds.uasset",
 				"C:/Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Meteor.uasset",
 				"C:/Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Default/6/0Y/KYP47KF2ORC3C97LDGMTA3.uasset",
@@ -19,6 +14,12 @@
 				"C:/Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Level/StartLevel.umap",
 				"C:/Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/BP_health.uasset",
 				"C:/Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_MissileMeteor.uasset",
+				"C:/Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_GravityMeteor.uasset",
+				"C:/Users/mw2ve/Documents/GitHub/OrbitalOutlast/UniProject/Content/Game/BP/BP_GravityMeteor.uasset",
+				"C:/Users/mw2ve/Documents/GitHub/OrbitalOutlast/UniProject/Content/Game/BP/BP_Character.uasset",
+				"C:/Users/mw2ve/Documents/GitHub/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Testing/1/BK/J917PQM1LEL624X09X4BBL.uasset",
+				"C:/Users/mw2ve/Documents/GitHub/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Testing/A/FA/X3S1JA44RZCS7EVZGQ9RXK.uasset",
+				"C:/Users/mw2ve/Documents/GitHub/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Testing/3/TS/NHRL2RIUS14ENDLUV5FB6V.uasset",
 				"C:/Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Default/E/63/BALU83YULQCE9JHMPQP26Y.uasset"
 			]
 		}
