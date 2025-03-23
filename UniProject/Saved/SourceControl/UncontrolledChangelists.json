@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/mw2ve/Documents/GitHub/OrbitalOutlast/UniProject/Content/Game/BP/BP_ClusterMeteor.uasset",
+				"C:/Users/mw2ve/Documents/GitHub/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Testing/A/FA/X3S1JA44RZCS7EVZGQ9RXK.uasset",
+				"C:/Users/mw2ve/Documents/GitHub/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Testing/3/TS/NHRL2RIUS14ENDLUV5FB6V.uasset",
+				"C:/Users/mw2ve/Documents/GitHub/OrbitalOutlast/UniProject/Content/__ExternalActors__/Level/Testing/7/IL/18OEAJGEFBU4QKJ7NCH0FN.uasset"
+			]
+		}
+	]
+}
