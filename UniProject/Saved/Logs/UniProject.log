@@ -1095,3 +1095,22 @@ LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
 [2025.03.23-23.03.19:345][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.2/FeaturePacks/TP_VehicleAdvBP.upack', mount point: 'root:/'
 [2025.03.23-23.03.19:351][  0]LogPakFile: Display: Mounted Pak file 'C:/Program Files/Epic Games/UE_5.2/FeaturePacks/TP_VirtualRealityBP.upack', mount point: 'root:/'
 [2025.03.23-23.05.02:607][  0]LogDerivedDataCache: C:/Users/Evan Boomer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.304 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1998 files in 3016 folders with total size 131 MiB.
+[2025.03.24-00.10.18:625][  0]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2025.03.25-10.22.25:204][  0]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [123129968ms] waiting for h/w. InstanceID=1
+[2025.03.25-10.30.10:627][  0]LogDerivedDataCache: C:/Users/Evan Boomer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.189 and deleted 283 files with total size 15 MiB and 282 empty folders. Scanned 2149 files in 3192 folders with total size 132 MiB.
+[2025.03.25-11.36.50:620][  0]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [907651ms] waiting for h/w. InstanceID=1
+[2025.03.25-12.11.43:347][  0]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [2096016ms] waiting for h/w. InstanceID=1
+[2025.03.25-12.35.38:056][  0]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2025.03.25-16.21.30:456][  0]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [13555629ms] waiting for h/w. InstanceID=1
+[2025.03.25-16.28.13:004][  0]LogDerivedDataCache: C:/Users/Evan Boomer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:03.411 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1870 files in 2891 folders with total size 116 MiB.
+[2025.03.25-16.55.24:518][  0]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [907763ms] waiting for h/w. InstanceID=1
+[2025.03.25-22.11.06:502][  0]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [18945876ms] waiting for h/w. InstanceID=1
+[2025.03.25-22.55.02:504][  0]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [907385ms] waiting for h/w. InstanceID=1
+[2025.03.25-22.55.07:505][  0]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2025.03.25-23.27.25:870][  0]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.03.25-23.48.45:446][  0]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2025.03.25-23.48.50:447][  0]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2025.03.26-10.14.05:423][  0]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.03.26-10.24.06:142][  0]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2025.03.26-10.41.56:092][  0]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
+[2025.03.26-10.42.01:093][  0]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [5000ms] waiting for h/w. InstanceID=1
