@@ -6285,3 +6285,781 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.04.22-10.38.08:059][319]LogFileHelpers: InternalPromptForCheckoutAndSave took 301 ms (total: 12.4 sec)
 [2025.04.22-10.38.08:065][319]AssetCheck: New page: Asset Save: BP_health
 [2025.04.22-10.38.08:065][319]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Game/UI/BP_health.BP_health
+[2025.04.22-10.39.23:304][188]BlueprintLog: New page: Compile BP_health
+[2025.04.22-10.39.23:372][188]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.04.22-10.39.24:123][216]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-10.39.24:408][216]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/UI/BP_health" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/BP_health.uasset" SILENT=true
+[2025.04.22-10.39.24:450][216]LogSavePackage: Moving output files for package: /Game/Game/UI/BP_health
+[2025.04.22-10.39.24:452][216]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_health71D16AF546CAD674F881EF8C9F0D494F.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/BP_health.uasset'
+[2025.04.22-10.39.24:497][216]LogFileHelpers: InternalPromptForCheckoutAndSave took 373 ms (total: 12.7 sec)
+[2025.04.22-10.39.24:504][216]AssetCheck: New page: Asset Save: BP_health
+[2025.04.22-10.39.24:504][216]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Game/UI/BP_health.BP_health
+[2025.04.22-10.39.29:041][444]BlueprintLog: New page: Compile BP_health
+[2025.04.22-10.39.29:174][444]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2025.04.22-10.39.29:745][464]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-10.39.30:023][464]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/UI/BP_health" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/BP_health.uasset" SILENT=true
+[2025.04.22-10.39.30:087][464]LogSavePackage: Moving output files for package: /Game/Game/UI/BP_health
+[2025.04.22-10.39.30:091][464]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_healthB6D2F6694961960B6BA0D18D9241E288.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/BP_health.uasset'
+[2025.04.22-10.39.30:129][464]LogFileHelpers: InternalPromptForCheckoutAndSave took 383 ms (total: 13.1 sec)
+[2025.04.22-10.39.30:139][464]AssetCheck: New page: Asset Save: BP_health
+[2025.04.22-10.39.30:139][464]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Game/UI/BP_health.BP_health
+[2025.04.22-10.39.31:400][513]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.22-10.39.31:421][513]LogContentBundle: [Default(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.22-10.39.31:430][513]LogWorldPartition: Display: GenerateStreaming started...
+[2025.04.22-10.39.31:430][513]LogWorldPartition: Display: GetPartitionedActors started...
+[2025.04.22-10.39.31:430][513]LogWorldPartition: Display: GetPartitionedActors took 74 us (total: 1 ms)
+[2025.04.22-10.39.31:775][513]LogWorldPartition: Display: GenerateStreaming took 346 ms (total: 7.52 sec)
+[2025.04.22-10.39.31:784][513]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.22-10.39.31:784][513]PIE: New page: PIE session: Default (22 Apr 2025, 12:39:31)
+[2025.04.22-10.39.31:784][513]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Default
+[2025.04.22-10.39.31:814][513]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030339s)
+[2025.04.22-10.39.31:814][513]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Default.Default to /Game/Level/UEDPIE_0_Default.Default (0.030417s)
+[2025.04.22-10.39.31:814][513]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-10.39.31:815][513]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-10.39.31:815][513]LogAIModule: Creating AISystem for world Default
+[2025.04.22-10.39.31:817][513]LogWorldPartition: ULevel::OnLevelLoaded(Default)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.22-10.39.31:817][513]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.22-10.39.31:817][513]LogWorldPartition: UWorldPartition::Initialize(Asset=Default, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2025.04.22-10.39.31:824][513]LogContentBundle: [Default(Standalone)] Creating new contrainer.
+[2025.04.22-10.39.31:824][513]LogWorldPartition: Display: WorldPartition initialize took 7 ms (total: 4.52 sec)
+[2025.04.22-10.39.31:824][513]LogPlayLevel: PIE: World Init took: (0.009698s)
+[2025.04.22-10.39.31:915][513]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2025.04.22-10.39.31:921][513]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2025.04.22-10.39.31:921][513]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.22-10.39.31:921][513]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.22-10.39.31:921][513]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.22-10.39.31:921][513]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.22-10.39.31:921][513]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.22-10.39.31:921][513]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.04.22-10.39.31:921][513]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.22-10.39.31:921][513]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.22-10.39.31:922][513]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.22-10.39.31:922][513]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.22-10.39.31:922][513]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.22-10.39.31:926][513]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.22-10.39.32:092][513]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.04.22-10.39.32:092][513]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.22-10.39.32:092][513]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.22-10.39.32:092][513]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.22-10.39.32:093][513]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2025.04.22-10.39.32:094][513]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2025.04.22-10.39.32:098][513]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2025.04.22-10.39.32:098][513]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2025.04.22-10.39.32:098][513]LogInit: FAudioDevice initialized with ID 20.
+[2025.04.22-10.39.32:098][513]LogAudio: Display: Audio Device (ID: 20) registered with world 'Default'.
+[2025.04.22-10.39.32:098][513]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2025.04.22-10.39.32:105][513]LogLoad: Game class is 'BP_GameMode_C'
+[2025.04.22-10.39.32:109][513]LogWorld: Bringing World /Game/Level/UEDPIE_0_Default.Default up for play (max tick rate 60) at 2025.04.22-11.39.32
+[2025.04.22-10.39.32:110][513]LogWorld: Bringing up level for play took: 0.003747
+[2025.04.22-10.39.32:115][513]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2025.04.22-10.39.32:118][513]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(36), CellsToLoad(0), CellsToUnload(0)
+[2025.04.22-10.39.32:118][513]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=140.000,P=0.000000 Y=0.000000 R=-0.000000
+[2025.04.22-10.39.32:125][513]LogStreaming: Display: FlushAsyncLoading(-1): 42 QueuedPackages, 0 AsyncPackages
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/F/3Z/JHLLAYB19QKIATHE2OO4V6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/F/38/LYW18OIG3YK5TMMVQ3IDH0.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/E/SS/CIH3RRVQZ2R3VJFJWSV2D2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/E/NO/A4X9V9DGWAVSUVNT7T9PQM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/E/CY/80NNNSDW1USEZK4QCCABSH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/D/U9/MC3GQAGQBJ5HCFC7Y0XS76.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/D/U1/02NMTNFIO2TB6FKP50N6ZC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/D/H4/TW72E09DQ0EQ8LZLOPSQUX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/C/XT/V4LFLQO7ATZ7Z13QBRG2S1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/C/BB/K0IMC84PELF7R5C1MSXD4L.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/C/A7/SVWS1JBOLGJ29QPO7ED1VW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/C/8I/EY58D099DL4ELHWF5BCUUP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/C/5G/KTDOJEBXBQ09PB5WQ6DUZD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/C/3K/MMVP7NGFNSMG2Q91WPS5J0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/B/ZF/1BI7CQ7TEJQ03LG9HHUYFQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/B/MR/IUTRN4H5ZK1DKV42X0ODK1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/B/JN/6HZN1VFCWIDQHYP9A9Q7U7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/B/HZ/5M8EW2984UZMEYD050MG1C.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/B/CE/13JDTLQWEFGBV3J4QN8ENX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/B/A9/ZPKOGRB61J2KB4ES60LZNI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/A/RY/WB1NH9ONVGHHCGC7U2WK01.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/A/PG/2S40FR07E1AMJS3U7WXGMW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/A/HF/LUBXVRVK5ZDM7JUL6M6QEP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/A/CF/EGIEK0MIEPRQJHGRR8PZPZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/A/A6/L3JAQH6ZDQS63MDYURXPKD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/A/1K/WEE1TA2J3IH286YNHM7YVW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:482][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/A/11/72HHCJNIOD7PSHEN0OENHE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/9/SX/79TAWTDGQJ7NEYD43AAXJG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/9/L8/WIV3EQD5YZDPJY9L884IYT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/9/KP/UN2JLDQYETKH7GAKN1L8AX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/9/AT/6HZCJP2FFZ4NCLE5HU8764.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/9/8Y/X1UVK12XN6CJ1DDK9GG2J9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/8/P4/VYHYXO0TVI9GMX4239M2MA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/7/XI/VBLMWJU0Z63FS2SR7NP0WN.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/7/PE/X23CA17CUDU6KUFFBN8ANB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/7/GF/FVYJJIWA6VREE63H0ZZGK3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/7/FI/4XFDW1SOHP9CAHR4LC5L4V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/7/90/LNENYRTQLXEIGAKND2F468.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/6/US/BOQA4ND76SDX2O2STX2NQZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/6/65/S7YG94PV6PAH1AL76FBKIK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/5/ZI/FBGVMSZQAJS0DSGCK18VXK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/5/UA/AQITL7LY6EFG51YV3CH6BK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/5/R7/ZY3ZE361B9C3515W6SUVEG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/5/KO/1L7QQQM6YOQFJ6VUM9Y42B.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/5/D3/RRFJ7UHWJQ5TWULWANOU52.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/5/AX/XLRRF1LLRMWMJ2H4B4F1CB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/4/VV/1YATLPFJX9U6JV14WXEHZ6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/4/VL/TKST3DTKD7LQEMG6XF87OA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/4/TA/US6ZHJZRB4JH4CR7G51IRM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/4/KR/ZI5B9SU78AONKYHG5E5GAT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/4/JF/NDUKIY9C2SESQFWC28BMEU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/4/1S/PN3HJAC6GYP7HJW7M8ISQ3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/3/A2/YP8DCJOCG8QGU17AJ2ISBE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/3/37/9UB3QEV8VQZVAANK1ARFAO.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/3/20/E8IBK8LOY8B5UTSPFQR8UF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/2/X9/FP5J6GTR34ZY1P0CNDHQPX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/2/EZ/MC2T7IJEP5TPC31I2ZSI4E.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/2/B6/PSPV3JXS9KH279W4M38Z2C.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/2/5U/SDE17T30CH0SIXVLBEOAKA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/1/Z3/C2XIBXLUPYXTIG9AY9UJ9V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/1/WG/UNARF2LDQOD2CUHZCK3167.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/1/5V/89LWOCK2D3KW4SWFYBFKLZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:483][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/0/Q2/BQIROXM52RRQJ98XZ5VEX9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:484][513]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/0/4I/YXOUP7FUEGTQMV1O81FK56.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-10.39.32:566][513]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(4), CellsToLoad(0), CellsToUnload(0)
+[2025.04.22-10.39.32:568][513]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-29.997 Y=-20.005 Z=1224.295,P=0.000000 Y=0.000000 R=-0.000000
+[2025.04.22-10.39.32:615][513]PIE: Server logged in
+[2025.04.22-10.39.32:617][513]PIE: Play in editor total start time 1.195 seconds.
+[2025.04.22-10.39.38:299][826]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.22-10.39.38:299][826]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-374.754 Y=-832.683 Z=140.002] for [BP_GravityMeteor_C]
+[2025.04.22-10.39.44:290][168]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.22-10.39.44:290][168]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-376.107 Y=-834.641 Z=140.006] for [BP_GravityMeteor_C]
+[2025.04.22-10.39.48:793][428]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.22-10.39.48:793][428]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=541.479 Y=-18.710 Z=139.990] for [BP_ClusterMeteor_C]
+[2025.04.22-10.39.50:294][518]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.22-10.39.50:294][518]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=541.719 Y=-22.219 Z=139.996] for [BP_MissileMeteor_C]
+[2025.04.22-10.39.51:681][593]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.22-10.39.51:681][593]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-36.744 Y=68.044 Z=139.996] for [BP_Meteor_C]
+[2025.04.22-10.39.51:682][593]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.22-10.39.51:682][593]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-106.744 Y=68.044 Z=139.996] for [BP_Meteor_C]
+[2025.04.22-10.40.02:298][189]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.22-10.40.02:298][189]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=544.347 Y=-21.000 Z=140.000] for [BP_MissileMeteor_C]
+[2025.04.22-10.40.08:287][516]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.22-10.40.08:287][516]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=528.546 Y=829.994 Z=140.007] for [BP_ClusterMeteor_C]
+[2025.04.22-10.40.09:796][602]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.22-10.40.09:796][602]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-372.758 Y=805.445 Z=140.006] for [BP_ClusterMeteor_C]
+[2025.04.22-10.40.11:295][692]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.22-10.40.11:295][692]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-374.892 Y=809.028 Z=140.006] for [BP_ClusterMeteor_C]
+[2025.04.22-10.40.14:292][859]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.22-10.40.14:293][859]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=535.091 Y=-840.964 Z=140.002] for [BP_ClusterMeteor_C]
+[2025.04.22-10.40.16:308][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.22-10.40.16:308][974]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Default
+[2025.04.22-10.40.16:336][974]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-10.40.16:336][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-10.40.16:337][974]LogContentBundle: [Default(Standalone)] Deleting container.
+[2025.04.22-10.40.16:348][974]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.22-10.40.16:354][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-10.40.16:413][974]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.22-10.40.16:417][974]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2025.04.22-10.40.16:417][974]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2025.04.22-10.40.16:420][974]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2025.04.22-10.40.16:425][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.22-10.40.16:449][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.04.22-10.40.16:518][975]LogPlayLevel: Display: Destroying online subsystem :Context_38
+[2025.04.22-10.40.28:273][451]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/BP/BP_Meteor.BP_Meteor
+[2025.04.22-10.40.28:273][451]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-10.40.28:274][451]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-10.41.01:926][369]LogViewport: Scene viewport resized to 1426x1010, mode Windowed.
+[2025.04.22-10.42.07:941][230]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2025.04.22-10.42.07:948][230]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Default' took 0.118
+[2025.04.22-10.42.07:949][230]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Game/BP/BP_Meteor] ([2] browsable assets)...
+[2025.04.22-10.42.07:998][230]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Game/BP/BP_Meteor.BP_Meteor]
+[2025.04.22-10.42.08:000][230]OBJ SavePackage: Finished generating thumbnails for package [/Game/Game/BP/BP_Meteor]
+[2025.04.22-10.42.08:037][230]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Game/BP/BP_Meteor_Auto6
+[2025.04.22-10.42.08:037][230]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_Meteor_Auto6D2061FFB4AFA2D4544EB959B3082E618.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/Autosaves/Game/Game/BP/BP_Meteor_Auto6.uasset'
+[2025.04.22-10.42.08:040][230]LogFileHelpers: Auto-saving content packages took 0.092
+[2025.04.22-10.42.25:680][ 22]BlueprintLog: New page: Compile BP_Meteor
+[2025.04.22-10.42.25:789][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.04.22-10.42.26:564][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-10.42.26:722][ 59]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_Meteor" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Meteor.uasset" SILENT=true
+[2025.04.22-10.42.26:746][ 59]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_Meteor
+[2025.04.22-10.42.26:746][ 59]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_Meteor11645F3B4593F113A0B378BAACE9FD1A.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Meteor.uasset'
+[2025.04.22-10.42.26:771][ 59]LogFileHelpers: InternalPromptForCheckoutAndSave took 206 ms (total: 13.3 sec)
+[2025.04.22-10.42.26:778][ 59]AssetCheck: New page: Asset Save: BP_Meteor
+[2025.04.22-10.42.26:778][ 59]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_Meteor.BP_Meteor
+[2025.04.22-10.42.51:300][418]LogSlate: Window 'Pick a starting point for your system' being destroyed
+[2025.04.22-10.42.51:360][418]LogContentBrowser: Deferred new asset file creation: NewNiagaraSystem
+[2025.04.22-10.42.51:409][418]LogContentBrowser: Creating deferred item: NewNiagaraSystem
+[2025.04.22-10.42.51:516][419]LogContentBrowser: Renaming the item being created (Deferred Item: NewNiagaraSystem).
+[2025.04.22-10.42.52:914][488]LogContentBrowser: Attempting asset rename: NewNiagaraSystem -> NewNiagaraSystem
+[2025.04.22-10.42.52:973][488]LogContentBrowser: End creating deferred item NewNiagaraSystem
+[2025.04.22-10.42.53:104][489]LogAssetEditorSubsystem: Opening Asset editor for NiagaraSystem /Game/Game/BP/NewNiagaraSystem.NewNiagaraSystem
+[2025.04.22-10.42.53:170][489]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-10.42.53:170][489]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-10.42.53:312][489]LogStaticMesh: Display: Waiting for static meshes to be ready 0/1 (/Engine/EditorMeshes/AssetViewer/Floor_Mesh) ...
+[2025.04.22-10.42.53:386][489]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-10.42.53:386][489]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-10.42.53:640][489]LogViewport: Scene viewport resized to 504x619, mode Windowed.
+[2025.04.22-10.42.54:689][535]LogShaderCompilers: Display: ================================================
+[2025.04.22-10.42.54:689][535]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.22-10.42.54:689][535]LogShaderCompilers: Display: Total job queries 2, among them cache hits 0 (0.00%)
+[2025.04.22-10.42.54:689][535]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2025.04.22-10.42.54:689][535]LogShaderCompilers: Display: RAM used: 4.75 KiB of 1.60 GiB budget. Usage: 0.00%
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: Shaders Compiled: 2
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100.00%)
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.06 s
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: Job execution time: average 1.62 s, max 1.62 s
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: Job life time (pending + execution): average 1.68 s, max 1.68
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.68 s
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: Average processing rate: 1.19 jobs/sec
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: Total thread time: 0.491 s
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: Total thread preprocess time: 0 s
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: Percentage time preprocessing: 0.00%
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: Effective parallelization: 0.29 (times faster than compiling all shaders on one thread). Compare with number of workers: 11
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display:                                               FNiagaraShader (compiled    2 times, average 0.25 sec, max 0.25 sec, min 0.24 sec)
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display:                                               FNiagaraShader - 100.00% of total time (compiled    2 times, average 0.25 sec, max 0.25 sec, min 0.24 sec)
+[2025.04.22-10.42.54:690][535]LogShaderCompilers: Display: ================================================
+[2025.04.22-10.42.54:720][536]LogNiagara: Compiling System NiagaraSystem /Game/Game/BP/NewNiagaraSystem.NewNiagaraSystem took 1.753893 sec (time since issued), 3.455579 sec (combined shader worker time).
+[2025.04.22-10.42.55:298][569]LogNiagara: Compiling System NiagaraSystem /Game/Game/BP/NewNiagaraSystem.NewNiagaraSystem took 1.968068 sec (time since issued), 1.035032 sec (combined shader worker time).
+[2025.04.22-10.42.55:387][574]111585_NewNiagaraSystem_MessageLog: System successfully compiled.
+[2025.04.22-10.42.57:477][691]LogWorld: UWorld::CleanupWorld for World_44, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-10.42.57:477][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-10.42.57:499][691]LogWorld: UWorld::CleanupWorld for World_45, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-10.42.57:499][691]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-10.42.57:582][691]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.04.22-10.43.04:295][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2025.04.22-10.43.05:820][869]LogSlate: Window 'Delete Assets' being destroyed
+[2025.04.22-10.43.05:984][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2025.04.22-10.43.06:077][869]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2025.04.22-10.43.06:152][869]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2025.04.22-10.58.45:973][478]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2025.04.22-10.58.46:111][478]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=4476
+[2025.04.22-10.58.46:447][479]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d860b3c8-fced-43d1-9461-0c85ffb632b6}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=237.00
+[2025.04.22-10.58.46:447][479]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.04.22-10.58.46:449][479]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.04.22-10.58.48:489][486]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.04.22-11.41.53:979][486]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.04.22-11.41.53:991][486]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Level/Default/1/H3/1PHI6CYH98SGO2YO40GZBF_Auto7
+[2025.04.22-11.41.53:991][486]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/1PHI6CYH98SGO2YO40GZBF_Auto7DCEDC0B647002261470FF3B6406907D6.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/Autosaves/Game/__ExternalActors__/Level/Default/1/H3/1PHI6CYH98SGO2YO40GZBF_Auto7.uasset'
+[2025.04.22-11.41.54:000][486]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Level/Default/C/J8/LVH7THRNMXP8MPQKZUDRRX_Auto7
+[2025.04.22-11.41.54:000][486]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/LVH7THRNMXP8MPQKZUDRRX_Auto7B3DD82384A5E48EC0C938D8C91739A0A.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/Autosaves/Game/__ExternalActors__/Level/Default/C/J8/LVH7THRNMXP8MPQKZUDRRX_Auto7.uasset'
+[2025.04.22-11.41.54:012][486]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Level/Default/6/0Y/KYP47KF2ORC3C97LDGMTA3_Auto7
+[2025.04.22-11.41.54:012][486]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/KYP47KF2ORC3C97LDGMTA3_Auto7F4BD6F284C5F281CBFEC4FAC7DB6EB96.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/Autosaves/Game/__ExternalActors__/Level/Default/6/0Y/KYP47KF2ORC3C97LDGMTA3_Auto7.uasset'
+[2025.04.22-11.41.54:022][486]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/__ExternalActors__/Level/Default/D/0D/KBT2IKXUIM5ILGH6A6FZIH_Auto7
+[2025.04.22-11.41.54:022][486]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/KBT2IKXUIM5ILGH6A6FZIH_Auto79A91920646A9437DEE91F2B6F162980E.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/Autosaves/Game/__ExternalActors__/Level/Default/D/0D/KBT2IKXUIM5ILGH6A6FZIH_Auto7.uasset'
+[2025.04.22-11.41.54:030][486]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Level/Default' took 0.094
+[2025.04.22-11.41.54:030][486]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.094
+[2025.04.22-11.41.54:829][487]LogUdpMessaging: Display: Added local interface '192.168.1.151' to multicast group '230.0.0.1:6666'
+[2025.04.22-11.57.36:112][113]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [4999ms] waiting for h/w. InstanceID=1
+[2025.04.22-11.57.36:372][113]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=4476
+[2025.04.22-11.57.36:708][114]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{d860b3c8-fced-43d1-9461-0c85ffb632b6}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=206.47
+[2025.04.22-11.57.36:708][114]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2025.04.22-11.57.36:710][114]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2025.04.22-11.57.45:814][142]LogUdpMessaging: Warning: UDP messaging encountered an error. Auto repair routine started for reinitialization
+[2025.04.22-13.06.51:973][143]LogUdpMessaging: Display: Added local interface '192.168.1.151' to multicast group '230.0.0.1:6666'
+[2025.04.22-13.07.25:214][656]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2025.04.22-13.07.25:251][656]LogContentBrowser: Creating deferred item: NewMaterial
+[2025.04.22-13.07.25:312][657]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2025.04.22-13.07.59:559][286]LogContentBrowser: Attempting asset rename: NewMaterial -> M_LaserBullet
+[2025.04.22-13.07.59:560][286]LogContentBrowser: End creating deferred item NewMaterial
+[2025.04.22-13.08.08:885][619]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Game/Assets/M_LaserBullet.M_LaserBullet
+[2025.04.22-13.08.08:959][619]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-13.08.08:959][619]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-13.08.09:213][619]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.08.09:213][619]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.08.09:213][619]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.08.09:222][619]LogViewport: Scene viewport resized to 500x657, mode Windowed.
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: ================================================
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: Total job queries 8, among them cache hits 0 (0.00%)
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: Tracking 5 distinct input hashes that result in 4 distinct outputs (80.00%)
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: RAM used: 26.85 KiB of 1.60 GiB budget. Usage: 0.00%
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: Shaders Compiled: 5
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: Jobs assigned 8, completed 5 (62.50%)
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: Average time worker was idle: 4361.13 s
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.07 s
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: Job execution time: average 1.31 s, max 2.48 s
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: Job life time (pending + execution): average 1.37 s, max 2.55
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 4.76 s
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: Jobs were issued in 8 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: Average processing rate: 1.05 jobs/sec
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: Total thread time: 2.465 s
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: Total thread preprocess time: 1.139 s
+[2025.04.22-13.08.11:914][748]LogShaderCompilers: Display: Percentage time preprocessing: 46.21%
+[2025.04.22-13.08.11:915][748]LogShaderCompilers: Display: Effective parallelization: 0.52 (times faster than compiling all shaders on one thread). Compare with number of workers: 11
+[2025.04.22-13.08.11:915][748]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2025.04.22-13.08.11:915][748]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled    1 times, average 1.83 sec, max 1.83 sec, min 1.83 sec)
+[2025.04.22-13.08.11:915][748]LogShaderCompilers: Display:                                               FNiagaraShader (compiled    4 times, average 0.16 sec, max 0.25 sec, min 0.07 sec)
+[2025.04.22-13.08.11:915][748]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2025.04.22-13.08.11:915][748]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 74.20% of total time (compiled    1 times, average 1.83 sec, max 1.83 sec, min 1.83 sec)
+[2025.04.22-13.08.11:915][748]LogShaderCompilers: Display:                                               FNiagaraShader - 25.80% of total time (compiled    4 times, average 0.16 sec, max 0.25 sec, min 0.07 sec)
+[2025.04.22-13.08.11:915][748]LogShaderCompilers: Display: ================================================
+[2025.04.22-13.08.12:272][761]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2025.04.22-13.08.12:272][761]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.08.12:272][761]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.08.12:272][761]MaterialEditorStats: Shader Count: 3
+[2025.04.22-13.08.12:783][770]MaterialEditorStats: Base pass shader: 222 instructions
+[2025.04.22-13.08.12:783][770]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2025.04.22-13.08.12:783][770]MaterialEditorStats: Texture samplers: 4/16
+[2025.04.22-13.08.12:783][770]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.08.12:783][770]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.09.00:812][631]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.09.00:812][631]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.09.00:812][631]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.09.02:447][714]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2025.04.22-13.09.02:447][714]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.09.02:447][714]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.09.02:447][714]MaterialEditorStats: Shader Count: 3
+[2025.04.22-13.09.02:564][721]MaterialEditorStats: Base pass shader: 227 instructions
+[2025.04.22-13.09.02:564][721]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2025.04.22-13.09.02:564][721]MaterialEditorStats: Texture samplers: 4/16
+[2025.04.22-13.09.02:564][721]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.09.02:564][721]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.09.08:497][884]LogSlate: Window 'Color Picker' being destroyed
+[2025.04.22-13.09.08:528][884]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.09.08:528][884]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.09.08:528][884]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.09.08:579][886]MaterialEditorStats: Base pass shader: 227 instructions
+[2025.04.22-13.09.08:580][886]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2025.04.22-13.09.08:580][886]MaterialEditorStats: Texture samplers: 4/16
+[2025.04.22-13.09.08:580][886]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.09.08:580][886]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.09.20:180][292]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.09.20:180][292]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.09.20:180][292]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.09.20:243][294]MaterialEditorStats: Base pass shader: 227 instructions
+[2025.04.22-13.09.20:243][294]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2025.04.22-13.09.20:243][294]MaterialEditorStats: Texture samplers: 4/16
+[2025.04.22-13.09.20:243][294]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.09.20:243][294]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.09.22:084][316]LogSlate: Window 'Color Picker' being destroyed
+[2025.04.22-13.09.22:121][316]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.09.22:121][316]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.09.22:121][316]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.09.22:175][318]MaterialEditorStats: Base pass shader: 227 instructions
+[2025.04.22-13.09.22:176][318]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2025.04.22-13.09.22:176][318]MaterialEditorStats: Texture samplers: 4/16
+[2025.04.22-13.09.22:176][318]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.09.22:176][318]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.09.29:801][482]LogSlate: Window 'Color Picker' being destroyed
+[2025.04.22-13.09.36:144][693]LogSlate: Window 'Color Picker' being destroyed
+[2025.04.22-13.09.39:299][805]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.09.39:299][805]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.09.39:299][805]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.09.39:352][807]MaterialEditorStats: Base pass shader: 227 instructions
+[2025.04.22-13.09.39:353][807]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2025.04.22-13.09.39:353][807]MaterialEditorStats: Texture samplers: 4/16
+[2025.04.22-13.09.39:353][807]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.09.39:353][807]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.09.40:756][864]LogSlate: Window 'Color Picker' being destroyed
+[2025.04.22-13.09.40:797][864]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.09.40:797][864]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.09.40:797][864]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.09.40:847][866]MaterialEditorStats: Base pass shader: 227 instructions
+[2025.04.22-13.09.40:847][866]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2025.04.22-13.09.40:847][866]MaterialEditorStats: Texture samplers: 4/16
+[2025.04.22-13.09.40:847][866]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.09.40:847][866]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.09.48:541][117]LogSlate: Window 'Color Picker' being destroyed
+[2025.04.22-13.10.32:487][ 89]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.10.32:487][ 89]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.10.32:487][ 89]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.10.33:884][157]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2025.04.22-13.10.33:884][157]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.10.33:884][157]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.10.33:884][157]MaterialEditorStats: Shader Count: 3
+[2025.04.22-13.10.33:990][163]MaterialEditorStats: Base pass shader: 227 instructions
+[2025.04.22-13.10.33:990][163]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2025.04.22-13.10.33:990][163]MaterialEditorStats: Texture samplers: 4/16
+[2025.04.22-13.10.33:990][163]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.10.33:990][163]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.10.35:596][201]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.10.35:596][201]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.10.35:596][201]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.10.36:824][249]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2025.04.22-13.10.36:824][249]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.10.36:824][249]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.10.36:824][249]MaterialEditorStats: Shader Count: 3
+[2025.04.22-13.10.36:948][252]MaterialEditorStats: Base pass shader: 222 instructions
+[2025.04.22-13.10.36:948][252]MaterialEditorStats: Base pass vertex shader: 244 instructions
+[2025.04.22-13.10.36:948][252]MaterialEditorStats: Texture samplers: 4/16
+[2025.04.22-13.10.36:948][252]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.04.22-13.10.36:948][252]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.10.39:075][305]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.10.39:075][305]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.10.39:075][305]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.10.39:075][305]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.10.39:901][326]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.10.39:901][326]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.10.39:902][326]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.10.39:902][326]MaterialEditorStats: Shader Count: 1
+[2025.04.22-13.10.40:269][332]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.10.40:269][332]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.10.40:269][332]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.10.40:269][332]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.10.40:269][332]MaterialEditorStats: Shader Count: 3
+[2025.04.22-13.10.40:334][333]MaterialEditorStats: Base pass shader: 232 instructions
+[2025.04.22-13.10.40:334][333]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.10.40:334][333]MaterialEditorStats: Texture samplers: 5/16
+[2025.04.22-13.10.40:334][333]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.10.40:334][333]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.10.40:335][333]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.10.58:399][875]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.10.58:399][875]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.10.58:399][875]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.10.58:399][875]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.10.59:374][917]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.10.59:374][917]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.10.59:374][917]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.10.59:374][917]MaterialEditorStats: Shader Count: 1
+[2025.04.22-13.10.59:716][937]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.10.59:717][937]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.10.59:717][937]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.10.59:717][937]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.10.59:717][937]MaterialEditorStats: Shader Count: 3
+[2025.04.22-13.10.59:817][943]MaterialEditorStats: Base pass shader: 227 instructions
+[2025.04.22-13.10.59:817][943]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.10.59:817][943]MaterialEditorStats: Texture samplers: 5/16
+[2025.04.22-13.10.59:817][943]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.10.59:817][943]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.10.59:817][943]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.11.02:322][ 62]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.11.02:324][ 62]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.02:324][ 62]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.02:324][ 62]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.11.03:004][ 93]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.11.03:004][ 93]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.03:004][ 93]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.03:004][ 93]MaterialEditorStats: Shader Count: 1
+[2025.04.22-13.11.03:420][110]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.11.03:420][110]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.11.03:420][110]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.03:420][110]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.03:420][110]MaterialEditorStats: Shader Count: 3
+[2025.04.22-13.11.03:537][114]MaterialEditorStats: Base pass shader: 227 instructions
+[2025.04.22-13.11.03:537][114]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.11.03:537][114]MaterialEditorStats: Texture samplers: 5/16
+[2025.04.22-13.11.03:537][114]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.03:537][114]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.03:537][114]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.11.05:212][143]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.11.05:212][143]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.05:212][143]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.05:212][143]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.11.06:150][160]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.11.06:150][160]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.06:150][160]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.06:150][160]MaterialEditorStats: Shader Count: 1
+[2025.04.22-13.11.06:482][170]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.11.06:482][170]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.11.06:482][170]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.06:482][170]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.06:482][170]MaterialEditorStats: Shader Count: 3
+[2025.04.22-13.11.06:688][176]MaterialEditorStats: Base pass shader: 230 instructions
+[2025.04.22-13.11.06:688][176]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.11.06:688][176]MaterialEditorStats: Texture samplers: 5/16
+[2025.04.22-13.11.06:688][176]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.06:688][176]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.06:688][176]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.11.08:925][205]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.11.08:926][205]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.08:926][205]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.08:926][205]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.11.09:846][221]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.11.09:846][221]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.11.09:846][221]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.09:846][221]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.09:846][221]MaterialEditorStats: Shader Count: 3
+[2025.04.22-13.11.09:983][225]MaterialEditorStats: Base pass shader: 224 instructions
+[2025.04.22-13.11.09:983][225]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.11.09:983][225]MaterialEditorStats: Texture samplers: 4/16
+[2025.04.22-13.11.09:983][225]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.09:983][225]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.09:983][225]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.11.11:599][248]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.11.11:599][248]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.11:599][248]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.11:599][248]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.11.11:791][250]MaterialEditorStats: Base pass shader: 232 instructions
+[2025.04.22-13.11.11:791][250]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.11.11:791][250]MaterialEditorStats: Texture samplers: 5/16
+[2025.04.22-13.11.11:791][250]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.11:791][250]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.11:791][250]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.11.54:356][889]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.11.54:356][889]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.54:356][889]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.54:356][889]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: ================================================
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Total job queries 141, among them cache hits 89 (63.12%)
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Tracking 47 distinct input hashes that result in 25 distinct outputs (53.19%)
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: RAM used: 850.87 KiB of 1.60 GiB budget. Usage: 0.05%
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Shaders Compiled: 45
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Jobs assigned 50, completed 45 (90.00%)
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Average time worker was idle: 439.54 s
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Time job spent in pending queue: average 0.07 s, longest 0.20 s
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Job execution time: average 1.22 s, max 3.32 s
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Job life time (pending + execution): average 1.29 s, max 3.40
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 17.67 s
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Jobs were issued in 50 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Average processing rate: 2.55 jobs/sec
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Total thread time: 40.091 s
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Total thread preprocess time: 6.888 s
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Percentage time preprocessing: 17.18%
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Effective parallelization: 2.27 (times faster than compiling all shaders on one thread). Compare with number of workers: 11
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.04.22-13.11.55:831][953]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   11 times, average 1.15 sec, max 2.72 sec, min 0.69 sec)
+[2025.04.22-13.11.55:832][953]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled   11 times, average 1.00 sec, max 2.18 sec, min 0.67 sec)
+[2025.04.22-13.11.55:832][953]LogShaderCompilers: Display:                                                 FLumenCardVS (compiled    9 times, average 0.93 sec, max 1.99 sec, min 0.65 sec)
+[2025.04.22-13.11.55:832][953]LogShaderCompilers: Display:                                          FLumenCardPS<false> (compiled   10 times, average 0.74 sec, max 1.83 sec, min 0.52 sec)
+[2025.04.22-13.11.55:832][953]LogShaderCompilers: Display:                                               FNiagaraShader (compiled    4 times, average 0.16 sec, max 0.25 sec, min 0.07 sec)
+[2025.04.22-13.11.55:832][953]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.04.22-13.11.55:832][953]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 31.48% of total time (compiled   11 times, average 1.15 sec, max 2.72 sec, min 0.69 sec)
+[2025.04.22-13.11.55:832][953]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 27.53% of total time (compiled   11 times, average 1.00 sec, max 2.18 sec, min 0.67 sec)
+[2025.04.22-13.11.55:832][953]LogShaderCompilers: Display:                                                 FLumenCardVS - 20.87% of total time (compiled    9 times, average 0.93 sec, max 1.99 sec, min 0.65 sec)
+[2025.04.22-13.11.55:832][953]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 18.54% of total time (compiled   10 times, average 0.74 sec, max 1.83 sec, min 0.52 sec)
+[2025.04.22-13.11.55:832][953]LogShaderCompilers: Display:                                               FNiagaraShader - 1.59% of total time (compiled    4 times, average 0.16 sec, max 0.25 sec, min 0.07 sec)
+[2025.04.22-13.11.55:832][953]LogShaderCompilers: Display: ================================================
+[2025.04.22-13.11.55:854][954]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.11.55:854][954]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.55:854][954]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.55:854][954]MaterialEditorStats: Shader Count: 1
+[2025.04.22-13.11.56:152][966]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.11.56:152][966]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.11.56:152][966]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.56:152][966]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.56:152][966]MaterialEditorStats: Shader Count: 3
+[2025.04.22-13.11.56:287][969]MaterialEditorStats: Base pass shader: 232 instructions
+[2025.04.22-13.11.56:287][969]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.11.56:287][969]MaterialEditorStats: Texture samplers: 5/16
+[2025.04.22-13.11.56:287][969]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.11.56:287][969]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.11.56:287][969]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.12.09:733][259]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.12.09:733][259]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.09:733][259]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.09:733][259]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.12.10:688][313]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.12.10:688][313]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.10:688][313]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.10:688][313]MaterialEditorStats: Shader Count: 1
+[2025.04.22-13.12.11:005][330]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.12.11:005][330]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.12.11:005][330]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.11:005][330]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.11:005][330]MaterialEditorStats: Shader Count: 3
+[2025.04.22-13.12.11:110][333]MaterialEditorStats: Base pass shader: 232 instructions
+[2025.04.22-13.12.11:110][333]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.12.11:110][333]MaterialEditorStats: Texture samplers: 5/16
+[2025.04.22-13.12.11:110][333]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.11:110][333]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.11:110][333]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.12.14:416][449]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.12.14:417][449]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.14:417][449]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.14:417][449]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.12.15:319][469]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.12.15:319][469]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.15:319][469]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.15:319][469]MaterialEditorStats: Shader Count: 1
+[2025.04.22-13.12.15:648][478]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.12.15:648][478]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.12.15:648][478]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.15:648][478]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.15:649][478]MaterialEditorStats: Shader Count: 3
+[2025.04.22-13.12.15:750][481]MaterialEditorStats: Base pass shader: 233 instructions
+[2025.04.22-13.12.15:750][481]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.12.15:750][481]MaterialEditorStats: Texture samplers: 5/16
+[2025.04.22-13.12.15:751][481]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.15:751][481]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.15:751][481]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.12.18:035][512]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.12.18:035][512]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.18:035][512]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.18:035][512]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.12.18:083][514]MaterialEditorStats: Base pass shader: 232 instructions
+[2025.04.22-13.12.18:083][514]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.12.18:083][514]MaterialEditorStats: Texture samplers: 5/16
+[2025.04.22-13.12.18:083][514]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.18:083][514]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.18:083][514]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.12.21:530][586]MaterialEditorStats: Texture samplers: 0/16
+[2025.04.22-13.12.21:531][586]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.21:531][586]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.21:531][586]MaterialEditorStats: Shader Count: 0
+[2025.04.22-13.12.22:367][615]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.12.22:367][615]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.22:368][615]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.22:368][615]MaterialEditorStats: Shader Count: 1
+[2025.04.22-13.12.22:698][627]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.12.22:698][627]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.12.22:698][627]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.22:698][627]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.22:698][627]MaterialEditorStats: Shader Count: 3
+[2025.04.22-13.12.22:891][634]MaterialEditorStats: Base pass shader: 232 instructions
+[2025.04.22-13.12.22:891][634]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.12.22:891][634]MaterialEditorStats: Texture samplers: 5/16
+[2025.04.22-13.12.22:891][634]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.22:891][634]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.22:891][634]MaterialEditorStats: Shader Count: 4
+[2025.04.22-13.12.26:260][789]LogMaterialEditor: Applying material M_LaserBullet
+[2025.04.22-13.12.27:466][789]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2025.04.22-13.12.28:499][789]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.04.22-13.12.28:542][789]MaterialEditorStats: Texture samplers: 1/16
+[2025.04.22-13.12.28:542][789]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.28:542][789]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.28:542][789]MaterialEditorStats: Shader Count: 2
+[2025.04.22-13.12.29:107][803]LogMaterialEditor: Saving and Compiling material M_LaserBullet
+[2025.04.22-13.12.29:109][803]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-13.12.30:788][803]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/Assets/M_LaserBullet" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/Assets/M_LaserBullet.uasset" SILENT=true
+[2025.04.22-13.12.30:801][803]LogSavePackage: Moving output files for package: /Game/Game/Assets/M_LaserBullet
+[2025.04.22-13.12.30:802][803]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/M_LaserBullet0053CFCC4FF5A152842CBC9C60E763F8.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/Assets/M_LaserBullet.uasset'
+[2025.04.22-13.12.30:876][803]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.76 sec (total: 15.1 sec)
+[2025.04.22-13.12.30:885][803]AssetCheck: New page: Asset Save: M_LaserBullet
+[2025.04.22-13.12.30:885][803]LogContentValidation: Display: Validating /Script/Engine.Material /Game/Game/Assets/M_LaserBullet.M_LaserBullet
+[2025.04.22-13.12.30:902][803]MaterialEditorStats: Base pass shader: 232 instructions
+[2025.04.22-13.12.30:903][803]MaterialEditorStats: Base pass vertex shader: 249 instructions
+[2025.04.22-13.12.30:903][803]MaterialEditorStats: MaxSampler: 282 instructions
+[2025.04.22-13.12.30:903][803]MaterialEditorStats: Texture samplers: 6/16
+[2025.04.22-13.12.30:903][803]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2025.04.22-13.12.30:903][803]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2025.04.22-13.12.30:903][803]MaterialEditorStats: Shader Count: 16
+[2025.04.22-13.12.44:231][246]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/BP/BP_Projectile.BP_Projectile
+[2025.04.22-13.12.44:231][246]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-13.12.44:232][246]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-13.12.46:666][327]LogViewport: Scene viewport resized to 1426x1010, mode Windowed.
+[2025.04.22-13.12.57:803][839]LogSlate: Took 0.002791 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2025.04.22-13.13.04:948][ 63]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.22-13.13.04:966][ 63]LogContentBundle: [Default(Standalone)] Generating Streaming for 0 Content Bundles.
+[2025.04.22-13.13.04:972][ 63]LogWorldPartition: Display: GenerateStreaming started...
+[2025.04.22-13.13.04:972][ 63]LogWorldPartition: Display: GetPartitionedActors started...
+[2025.04.22-13.13.04:972][ 63]LogWorldPartition: Display: GetPartitionedActors took 68 us (total: 1 ms)
+[2025.04.22-13.13.05:532][ 63]LogWorldPartition: Display: GenerateStreaming took 559 ms (total: 8.08 sec)
+[2025.04.22-13.13.05:540][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.22-13.13.05:540][ 63]PIE: New page: PIE session: Default (22 Apr 2025, 15:13:05)
+[2025.04.22-13.13.05:541][ 63]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_Default
+[2025.04.22-13.13.05:569][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028524s)
+[2025.04.22-13.13.05:569][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/Default.Default to /Game/Level/UEDPIE_0_Default.Default (0.028602s)
+[2025.04.22-13.13.05:569][ 63]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.22-13.13.05:569][ 63]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.22-13.13.05:570][ 63]LogAIModule: Creating AISystem for world Default
+[2025.04.22-13.13.05:571][ 63]LogWorldPartition: ULevel::OnLevelLoaded(Default)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.22-13.13.05:571][ 63]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.22-13.13.05:571][ 63]LogWorldPartition: UWorldPartition::Initialize(Asset=Default, IsEditor=0, bPIEWorldTravel=0 IsGame=0, IsCooking=0)
+[2025.04.22-13.13.05:578][ 63]LogContentBundle: [Default(Standalone)] Creating new contrainer.
+[2025.04.22-13.13.05:578][ 63]LogWorldPartition: Display: WorldPartition initialize took 6 ms (total: 4.53 sec)
+[2025.04.22-13.13.05:579][ 63]LogPlayLevel: PIE: World Init took: (0.008899s)
+[2025.04.22-13.13.05:660][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2025.04.22-13.13.05:666][ 63]LogAudio: Display: Creating Audio Device:                 Id: 21, Scope: Unique, Realtime: True
+[2025.04.22-13.13.05:666][ 63]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.22-13.13.05:666][ 63]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.22-13.13.05:666][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.22-13.13.05:666][ 63]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.22-13.13.05:666][ 63]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.22-13.13.05:666][ 63]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.04.22-13.13.05:667][ 63]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.22-13.13.05:667][ 63]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.22-13.13.05:667][ 63]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.22-13.13.05:667][ 63]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.22-13.13.05:667][ 63]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.22-13.13.05:672][ 63]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.22-13.13.05:830][ 63]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.04.22-13.13.05:831][ 63]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.22-13.13.05:831][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.22-13.13.05:831][ 63]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.22-13.13.05:832][ 63]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=21
+[2025.04.22-13.13.05:833][ 63]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=21
+[2025.04.22-13.13.05:836][ 63]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=21
+[2025.04.22-13.13.05:836][ 63]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=21
+[2025.04.22-13.13.05:837][ 63]LogInit: FAudioDevice initialized with ID 21.
+[2025.04.22-13.13.05:837][ 63]LogAudio: Display: Audio Device (ID: 21) registered with world 'Default'.
+[2025.04.22-13.13.05:837][ 63]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 21
+[2025.04.22-13.13.05:844][ 63]LogLoad: Game class is 'BP_GameMode_C'
+[2025.04.22-13.13.05:847][ 63]LogWorld: Bringing World /Game/Level/UEDPIE_0_Default.Default up for play (max tick rate 60) at 2025.04.22-14.13.05
+[2025.04.22-13.13.05:848][ 63]LogWorld: Bringing up level for play took: 0.003272
+[2025.04.22-13.13.05:853][ 63]LogOnline: OSS: Created online subsystem instance for: :Context_44
+[2025.04.22-13.13.05:857][ 63]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(36), CellsToLoad(0), CellsToUnload(0)
+[2025.04.22-13.13.05:857][ 63]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=140.000,P=0.000000 Y=0.000000 R=-0.000000
+[2025.04.22-13.13.05:862][ 63]LogStreaming: Display: FlushAsyncLoading(-1): 42 QueuedPackages, 0 AsyncPackages
+[2025.04.22-13.13.06:391][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/F/3Z/JHLLAYB19QKIATHE2OO4V6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:391][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/F/38/LYW18OIG3YK5TMMVQ3IDH0.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.04.22-13.13.06:391][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/E/SS/CIH3RRVQZ2R3VJFJWSV2D2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:391][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/E/NO/A4X9V9DGWAVSUVNT7T9PQM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:391][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/E/CY/80NNNSDW1USEZK4QCCABSH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:391][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/D/U9/MC3GQAGQBJ5HCFC7Y0XS76.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:391][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/D/U1/02NMTNFIO2TB6FKP50N6ZC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:391][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/D/H4/TW72E09DQ0EQ8LZLOPSQUX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:391][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/C/XT/V4LFLQO7ATZ7Z13QBRG2S1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:391][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/C/BB/K0IMC84PELF7R5C1MSXD4L.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:391][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/C/A7/SVWS1JBOLGJ29QPO7ED1VW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/C/8I/EY58D099DL4ELHWF5BCUUP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/C/5G/KTDOJEBXBQ09PB5WQ6DUZD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/C/3K/MMVP7NGFNSMG2Q91WPS5J0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/B/ZF/1BI7CQ7TEJQ03LG9HHUYFQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/B/MR/IUTRN4H5ZK1DKV42X0ODK1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/B/JN/6HZN1VFCWIDQHYP9A9Q7U7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/B/HZ/5M8EW2984UZMEYD050MG1C.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/B/CE/13JDTLQWEFGBV3J4QN8ENX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/B/A9/ZPKOGRB61J2KB4ES60LZNI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/A/RY/WB1NH9ONVGHHCGC7U2WK01.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/A/PG/2S40FR07E1AMJS3U7WXGMW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/A/HF/LUBXVRVK5ZDM7JUL6M6QEP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/A/CF/EGIEK0MIEPRQJHGRR8PZPZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/A/A6/L3JAQH6ZDQS63MDYURXPKD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/A/1K/WEE1TA2J3IH286YNHM7YVW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/A/11/72HHCJNIOD7PSHEN0OENHE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/9/SX/79TAWTDGQJ7NEYD43AAXJG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/9/L8/WIV3EQD5YZDPJY9L884IYT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/9/KP/UN2JLDQYETKH7GAKN1L8AX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/9/AT/6HZCJP2FFZ4NCLE5HU8764.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/9/8Y/X1UVK12XN6CJ1DDK9GG2J9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/8/P4/VYHYXO0TVI9GMX4239M2MA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/7/XI/VBLMWJU0Z63FS2SR7NP0WN.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/7/PE/X23CA17CUDU6KUFFBN8ANB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/7/GF/FVYJJIWA6VREE63H0ZZGK3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/7/FI/4XFDW1SOHP9CAHR4LC5L4V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/7/90/LNENYRTQLXEIGAKND2F468.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/6/US/BOQA4ND76SDX2O2STX2NQZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/6/65/S7YG94PV6PAH1AL76FBKIK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:392][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/5/ZI/FBGVMSZQAJS0DSGCK18VXK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:393][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/5/UA/AQITL7LY6EFG51YV3CH6BK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:393][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/5/R7/ZY3ZE361B9C3515W6SUVEG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:393][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/5/KO/1L7QQQM6YOQFJ6VUM9Y42B.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:393][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/5/D3/RRFJ7UHWJQ5TWULWANOU52.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:393][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/5/AX/XLRRF1LLRMWMJ2H4B4F1CB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:393][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/4/VV/1YATLPFJX9U6JV14WXEHZ6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:393][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/4/VL/TKST3DTKD7LQEMG6XF87OA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:393][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/4/TA/US6ZHJZRB4JH4CR7G51IRM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:393][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/4/KR/ZI5B9SU78AONKYHG5E5GAT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:393][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/4/JF/NDUKIY9C2SESQFWC28BMEU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:393][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/4/1S/PN3HJAC6GYP7HJW7M8ISQ3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:393][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/3/A2/YP8DCJOCG8QGU17AJ2ISBE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:393][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/3/37/9UB3QEV8VQZVAANK1ARFAO.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:393][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/3/20/E8IBK8LOY8B5UTSPFQR8UF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:393][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/2/X9/FP5J6GTR34ZY1P0CNDHQPX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:394][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/2/EZ/MC2T7IJEP5TPC31I2ZSI4E.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:394][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/2/B6/PSPV3JXS9KH279W4M38Z2C.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:394][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/2/5U/SDE17T30CH0SIXVLBEOAKA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:394][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/1/Z3/C2XIBXLUPYXTIG9AY9UJ9V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:394][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/1/WG/UNARF2LDQOD2CUHZCK3167.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:394][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/1/5V/89LWOCK2D3KW4SWFYBFKLZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:394][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/0/Q2/BQIROXM52RRQJ98XZ5VEX9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:394][ 63]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/Level/Default/0/4I/YXOUP7FUEGTQMV1O81FK56.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.22-13.13.06:498][ 63]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(4), CellsToLoad(0), CellsToUnload(0)
+[2025.04.22-13.13.06:498][ 63]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-29.997 Y=-20.005 Z=1224.295,P=0.000000 Y=0.000000 R=-0.000000
+[2025.04.22-13.13.06:553][ 63]PIE: Server logged in
+[2025.04.22-13.13.06:556][ 63]PIE: Play in editor total start time 1.59 seconds.
+[2025.04.22-13.13.13:005][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.22-13.13.13:005][409]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Default
+[2025.04.22-13.13.13:045][409]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.22-13.13.13:046][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-13.13.13:046][409]LogContentBundle: [Default(Standalone)] Deleting container.
+[2025.04.22-13.13.13:057][409]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.22-13.13.13:067][409]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.22-13.13.13:123][409]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.22-13.13.13:127][409]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 21
+[2025.04.22-13.13.13:127][409]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2025.04.22-13.13.13:130][409]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
+[2025.04.22-13.13.13:140][409]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.22-13.13.13:163][409]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.04.22-13.13.13:237][410]LogPlayLevel: Display: Destroying online subsystem :Context_44
