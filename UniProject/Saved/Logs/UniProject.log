@@ -13206,3 +13206,57 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.04.22-23.14.29:102][443]LogContentValidation: Display: Validating /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds_C /Game/Level/Default.Default:PersistentLevel.BP_PlayerBounds_C_UAID_CC96E5111A775D4F02_2072481291
 [2025.04.22-23.14.29:102][443]LogContentValidation: Display: Validating /Game/Game/BP/BP_PlayerBounds.BP_PlayerBounds_C /Game/Level/Default.Default:PersistentLevel.BP_PlayerBounds_C_UAID_CC96E5111A775D4F02_2043492290
 [2025.04.22-23.14.40:450][964]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2025.04.22-23.16.05:511][531]LogEditorTransaction: Undo Move Node
+[2025.04.22-23.16.08:708][573]BlueprintLog: New page: Compile Cards_UI
+[2025.04.22-23.16.08:907][573]LogUObjectHash: Compacting FUObjectHashTables data took   2.44ms
+[2025.04.22-23.16.09:847][585]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-23.16.10:194][585]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/UI/Cards_UI" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/Cards_UI.uasset" SILENT=true
+[2025.04.22-23.16.10:245][585]LogSavePackage: Moving output files for package: /Game/Game/UI/Cards_UI
+[2025.04.22-23.16.10:249][585]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/Cards_UI9E771298486477A776DBC6925F423FF6.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/Cards_UI.uasset'
+[2025.04.22-23.16.10:297][585]LogFileHelpers: InternalPromptForCheckoutAndSave took 450 ms (total: 39.8 sec)
+[2025.04.22-23.16.10:303][585]AssetCheck: New page: Asset Save: Cards_UI
+[2025.04.22-23.16.10:303][585]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Game/UI/Cards_UI.Cards_UI
+[2025.04.22-23.19.19:240][895]BlueprintLog: New page: Compile Cards_UI
+[2025.04.22-23.19.19:368][895]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2025.04.22-23.19.20:435][917]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-23.19.20:648][917]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/UI/Cards_UI" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/Cards_UI.uasset" SILENT=true
+[2025.04.22-23.19.20:721][917]LogSavePackage: Moving output files for package: /Game/Game/UI/Cards_UI
+[2025.04.22-23.19.20:723][917]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/Cards_UI514A884242D45B58DADA2684208F85F7.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/Cards_UI.uasset'
+[2025.04.22-23.19.20:766][917]LogFileHelpers: InternalPromptForCheckoutAndSave took 330 ms (total: 40.1 sec)
+[2025.04.22-23.19.20:777][917]AssetCheck: New page: Asset Save: Cards_UI
+[2025.04.22-23.19.20:777][917]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Game/UI/Cards_UI.Cards_UI
+[2025.04.22-23.20.18:821][274]BlueprintLog: New page: Compile Cards_UI
+[2025.04.22-23.20.18:940][274]LogUObjectHash: Compacting FUObjectHashTables data took   2.25ms
+[2025.04.22-23.20.19:771][292]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-23.20.20:059][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/UI/Cards_UI" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/Cards_UI.uasset" SILENT=true
+[2025.04.22-23.20.20:141][292]LogSavePackage: Moving output files for package: /Game/Game/UI/Cards_UI
+[2025.04.22-23.20.20:143][292]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/Cards_UIC8DFFD7745CD7CBC3A5DAE872FB5108F.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/Cards_UI.uasset'
+[2025.04.22-23.20.20:178][292]LogFileHelpers: InternalPromptForCheckoutAndSave took 406 ms (total: 40.5 sec)
+[2025.04.22-23.20.20:187][292]AssetCheck: New page: Asset Save: Cards_UI
+[2025.04.22-23.20.20:187][292]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Game/UI/Cards_UI.Cards_UI
+[2025.04.22-23.21.24:142][ 70]BlueprintLog: New page: Compile Cards_UI
+[2025.04.22-23.21.24:346][ 70]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2025.04.22-23.21.25:410][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-23.21.25:613][ 81]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/UI/Cards_UI" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/Cards_UI.uasset" SILENT=true
+[2025.04.22-23.21.25:680][ 81]LogSavePackage: Moving output files for package: /Game/Game/UI/Cards_UI
+[2025.04.22-23.21.25:682][ 81]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/Cards_UIA18465724DEE432FD2E09880D6822FDC.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/Cards_UI.uasset'
+[2025.04.22-23.21.25:711][ 81]LogFileHelpers: InternalPromptForCheckoutAndSave took 301 ms (total: 40.8 sec)
+[2025.04.22-23.21.25:720][ 81]AssetCheck: New page: Asset Save: Cards_UI
+[2025.04.22-23.21.25:720][ 81]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Game/UI/Cards_UI.Cards_UI
+[2025.04.22-23.23.51:720][ 64]BlueprintLog: New page: Compile Cards_UI
+[2025.04.22-23.23.51:898][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2025.04.22-23.23.53:071][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-23.23.53:394][ 90]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/UI/Cards_UI" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/Cards_UI.uasset" SILENT=true
+[2025.04.22-23.23.53:500][ 90]LogSavePackage: Moving output files for package: /Game/Game/UI/Cards_UI
+[2025.04.22-23.23.53:503][ 90]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/Cards_UI578E487F4D4E8C4DFD81759F5D33330C.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/Cards_UI.uasset'
+[2025.04.22-23.23.53:555][ 90]LogFileHelpers: InternalPromptForCheckoutAndSave took 484 ms (total: 41.3 sec)
+[2025.04.22-23.23.53:576][ 90]AssetCheck: New page: Asset Save: Cards_UI
+[2025.04.22-23.23.53:576][ 90]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Game/UI/Cards_UI.Cards_UI
+[2025.04.22-23.24.15:665][149]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2025.04.22-23.24.15:678][149]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.22-23.24.15:962][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/UI/Cards_UI" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/Cards_UI.uasset" SILENT=true
+[2025.04.22-23.24.16:053][149]LogSavePackage: Moving output files for package: /Game/Game/UI/Cards_UI
+[2025.04.22-23.24.16:056][149]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/Cards_UI42C1A69645A763F2A606ACA5BCC3058F.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/UI/Cards_UI.uasset'
+[2025.04.22-23.24.16:117][149]LogFileHelpers: InternalPromptForCheckoutAndSave took 438 ms (total: 41.7 sec)
+[2025.04.22-23.24.16:134][149]AssetCheck: New page: Asset Save: Cards_UI
+[2025.04.22-23.24.16:134][149]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/Game/UI/Cards_UI.Cards_UI
