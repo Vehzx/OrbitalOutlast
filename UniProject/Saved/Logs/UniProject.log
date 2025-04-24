@@ -1395,3 +1395,817 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2025.04.24-21.54.38:208][769]LogFileHelpers: InternalPromptForCheckoutAndSave took 216 ms (total: 3.41 sec)
 [2025.04.24-21.54.38:213][769]AssetCheck: New page: Asset Save: Fuel_PickUp
 [2025.04.24-21.54.38:213][769]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/Fuel_PickUp.Fuel_PickUp
+[2025.04.24-21.58.23:602][231]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.24-21.58.23:612][231]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.24-21.58.23:613][231]PIE: New page: PIE session: StartLevel (24 Apr 2025, 23:58:23)
+[2025.04.24-21.58.23:618][231]LogOnline: OSS: Created online subsystem instance for: NULL
+[2025.04.24-21.58.23:618][231]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2025.04.24-21.58.23:619][231]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_StartLevel
+[2025.04.24-21.58.23:620][231]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001546s)
+[2025.04.24-21.58.23:620][231]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/StartLevel.StartLevel to /Game/Level/UEDPIE_0_StartLevel.StartLevel (0.001620s)
+[2025.04.24-21.58.23:620][231]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-21.58.23:621][231]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.24-21.58.23:621][231]LogAIModule: Creating AISystem for world StartLevel
+[2025.04.24-21.58.23:622][231]LogPlayLevel: PIE: World Init took: (0.001273s)
+[2025.04.24-21.58.23:646][231]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2025.04.24-21.58.23:648][231]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2025.04.24-21.58.23:648][231]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.24-21.58.23:649][231]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.24-21.58.23:649][231]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.24-21.58.23:649][231]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.24-21.58.23:649][231]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.24-21.58.23:649][231]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.04.24-21.58.23:649][231]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.24-21.58.23:649][231]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.24-21.58.23:649][231]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.24-21.58.23:649][231]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.24-21.58.23:649][231]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.24-21.58.23:651][231]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.24-21.58.23:719][231]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.04.24-21.58.23:720][231]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.24-21.58.23:720][231]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.24-21.58.23:720][231]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.24-21.58.23:721][231]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2025.04.24-21.58.23:721][231]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2025.04.24-21.58.23:723][231]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2025.04.24-21.58.23:723][231]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2025.04.24-21.58.23:723][231]LogInit: FAudioDevice initialized with ID 2.
+[2025.04.24-21.58.23:723][231]LogAudio: Display: Audio Device (ID: 2) registered with world 'StartLevel'.
+[2025.04.24-21.58.23:723][231]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2025.04.24-21.58.23:728][231]LogLoad: Game class is 'StartGameMode_C'
+[2025.04.24-21.58.23:729][231]LogWorld: Bringing World /Game/Level/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 60) at 2025.04.24-22.58.23
+[2025.04.24-21.58.23:729][231]LogWorld: Bringing up level for play took: 0.000450
+[2025.04.24-21.58.23:731][231]LogOnline: OSS: Created online subsystem instance for: :Context_20
+[2025.04.24-21.58.23:741][231]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.04.24-21.58.23:741][231]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2025.04.24-21.58.23:742][231]PIE: Server logged in
+[2025.04.24-21.58.23:743][231]PIE: Play in editor total start time 0.133 seconds.
+[2025.04.24-21.58.24:969][301]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.04.24-21.58.24:969][301]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.04.24-21.58.24:971][301]LogNet: Browse: /Game/Level/Default
+[2025.04.24-21.58.24:972][301]LogLoad: LoadMap: /Game/Level/Default
+[2025.04.24-21.58.24:972][301]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_StartLevel
+[2025.04.24-21.58.24:973][301]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2025.04.24-21.58.24:973][301]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-21.58.24:990][301]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.24-21.58.24:992][301]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2025.04.24-21.58.25:062][301]LogAudio: Display: Audio Device (ID: 2) registered with world 'Default'.
+[2025.04.24-21.58.25:062][301]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-21.58.25:062][301]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.24-21.58.25:062][301]LogAIModule: Creating AISystem for world Default
+[2025.04.24-21.58.25:063][301]LogWorldPartition: ULevel::OnLevelLoaded(Default)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.24-21.58.25:063][301]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.24-21.58.25:063][301]LogWorldPartition: UWorldPartition::Initialize(Asset=Default, IsEditor=0, bPIEWorldTravel=1 IsGame=0, IsCooking=0)
+[2025.04.24-21.58.25:076][301]LogWorldPartition: Display: GenerateStreaming started...
+[2025.04.24-21.58.25:076][301]LogWorldPartition: Display: GetPartitionedActors started...
+[2025.04.24-21.58.25:076][301]LogWorldPartition: Display: GetPartitionedActors took 49 us
+[2025.04.24-21.58.25:840][301]LogWorldPartition: Display: GenerateStreaming took 763 ms
+[2025.04.24-21.58.25:846][301]LogContentBundle: [Default(Standalone)] Creating new contrainer.
+[2025.04.24-21.58.25:847][301]LogWorldPartition: Display: WorldPartition initialize took 784 ms
+[2025.04.24-21.58.25:847][301]LogPlayLevel: PIE: World Init took: (0.785187s)
+[2025.04.24-21.58.25:847][301]LogLoad: Game class is 'BP_GameMode_C'
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/0/4I/YXOUP7FUEGTQMV1O81FK56.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/0/Q2/BQIROXM52RRQJ98XZ5VEX9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/1/5V/89LWOCK2D3KW4SWFYBFKLZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/1/WG/UNARF2LDQOD2CUHZCK3167.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/1/Z3/C2XIBXLUPYXTIG9AY9UJ9V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/2/5U/SDE17T30CH0SIXVLBEOAKA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/2/B6/PSPV3JXS9KH279W4M38Z2C.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/2/EZ/MC2T7IJEP5TPC31I2ZSI4E.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/2/X9/FP5J6GTR34ZY1P0CNDHQPX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/3/20/E8IBK8LOY8B5UTSPFQR8UF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/3/37/9UB3QEV8VQZVAANK1ARFAO.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/3/A2/YP8DCJOCG8QGU17AJ2ISBE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/1S/PN3HJAC6GYP7HJW7M8ISQ3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/JF/NDUKIY9C2SESQFWC28BMEU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/KR/ZI5B9SU78AONKYHG5E5GAT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/TA/US6ZHJZRB4JH4CR7G51IRM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/VL/TKST3DTKD7LQEMG6XF87OA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/VV/1YATLPFJX9U6JV14WXEHZ6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/AX/XLRRF1LLRMWMJ2H4B4F1CB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/D3/RRFJ7UHWJQ5TWULWANOU52.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/KO/1L7QQQM6YOQFJ6VUM9Y42B.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/R7/ZY3ZE361B9C3515W6SUVEG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/UA/AQITL7LY6EFG51YV3CH6BK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/ZI/FBGVMSZQAJS0DSGCK18VXK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:877][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/6/65/S7YG94PV6PAH1AL76FBKIK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/6/US/BOQA4ND76SDX2O2STX2NQZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/7/90/LNENYRTQLXEIGAKND2F468.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/7/FI/4XFDW1SOHP9CAHR4LC5L4V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/7/GF/FVYJJIWA6VREE63H0ZZGK3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/7/PE/X23CA17CUDU6KUFFBN8ANB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/7/XI/VBLMWJU0Z63FS2SR7NP0WN.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/8/P4/VYHYXO0TVI9GMX4239M2MA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/9/8Y/X1UVK12XN6CJ1DDK9GG2J9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/9/AT/6HZCJP2FFZ4NCLE5HU8764.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Engine/EngineSky/SM_SkySphere.SM_SkySphere being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/9/KP/UN2JLDQYETKH7GAKN1L8AX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/9/L8/WIV3EQD5YZDPJY9L884IYT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/9/SX/79TAWTDGQJ7NEYD43AAXJG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/11/72HHCJNIOD7PSHEN0OENHE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/1K/WEE1TA2J3IH286YNHM7YVW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/A6/L3JAQH6ZDQS63MDYURXPKD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/CF/EGIEK0MIEPRQJHGRR8PZPZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/HF/LUBXVRVK5ZDM7JUL6M6QEP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/PG/2S40FR07E1AMJS3U7WXGMW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/RY/WB1NH9ONVGHHCGC7U2WK01.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/A9/ZPKOGRB61J2KB4ES60LZNI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/CE/13JDTLQWEFGBV3J4QN8ENX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/HZ/5M8EW2984UZMEYD050MG1C.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/JN/6HZN1VFCWIDQHYP9A9Q7U7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/MR/IUTRN4H5ZK1DKV42X0ODK1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/ZF/1BI7CQ7TEJQ03LG9HHUYFQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/3K/MMVP7NGFNSMG2Q91WPS5J0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/5G/KTDOJEBXBQ09PB5WQ6DUZD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/8I/EY58D099DL4ELHWF5BCUUP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/A7/SVWS1JBOLGJ29QPO7ED1VW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/BB/K0IMC84PELF7R5C1MSXD4L.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/XT/V4LFLQO7ATZ7Z13QBRG2S1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/D/H4/TW72E09DQ0EQ8LZLOPSQUX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/D/U1/02NMTNFIO2TB6FKP50N6ZC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/D/U9/MC3GQAGQBJ5HCFC7Y0XS76.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/E/CY/80NNNSDW1USEZK4QCCABSH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/E/NO/A4X9V9DGWAVSUVNT7T9PQM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/E/SS/CIH3RRVQZ2R3VJFJWSV2D2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/F/38/LYW18OIG3YK5TMMVQ3IDH0.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.04.24-21.58.25:879][301]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/F/3Z/JHLLAYB19QKIATHE2OO4V6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-21.58.25:885][301]LogWorld: Bringing World /Game/Level/UEDPIE_0_Default.Default up for play (max tick rate 60) at 2025.04.24-22.58.25
+[2025.04.24-21.58.25:885][301]LogWorld: Bringing up level for play took: 0.005651
+[2025.04.24-21.58.25:889][301]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Game/UI/BP_health.BP_health_C:SetTimerVar'!
+[2025.04.24-21.58.25:889][301]LogScript: Warning: Script Msg called by: BP_health_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.BP_health_C_0
+[2025.04.24-21.58.25:889][301]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(36), CellsToLoad(0), CellsToUnload(0)
+[2025.04.24-21.58.25:889][301]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=140.000,P=0.000000 Y=0.000000 R=-0.000000
+[2025.04.24-21.58.25:892][301]LogStreaming: Display: FlushAsyncLoading(-1): 42 QueuedPackages, 0 AsyncPackages
+[2025.04.24-21.58.26:400][301]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(4), CellsToLoad(0), CellsToUnload(0)
+[2025.04.24-21.58.26:401][301]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-29.997 Y=-20.005 Z=1224.295,P=0.000000 Y=0.000000 R=-0.000000
+[2025.04.24-21.58.26:456][301]LogLoad: Took 1.484156 seconds to LoadMap(/Game/Level/Default)
+[2025.04.24-21.58.35:116][815]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-21.58.35:116][815]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-373.221 Y=804.398 Z=139.992] for [BP_GravityMeteor_C]
+[2025.04.24-21.58.36:617][905]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-21.58.36:617][905]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=544.088 Y=-20.158 Z=139.991] for [BP_GravityMeteor_C]
+[2025.04.24-21.58.53:103][894]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-21.58.53:103][894]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=539.642 Y=-21.107 Z=140.002] for [BP_ClusterMeteor_C]
+[2025.04.24-21.58.53:386][911]LogScript: Warning: Attempted to access BP_MissileMeteor_C_0 via property ActorCollided, but BP_MissileMeteor_C_0 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_62
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:039F
+[2025.04.24-21.58.53:386][911]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_MissileMeteor_C_0 via property ActorCollided, but BP_MissileMeteor_C_0 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-21.58.53:386][911]LogScript: Warning: Attempted to access BP_MissileMeteor_C_0 via property ActorCollided, but BP_MissileMeteor_C_0 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_62
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:0494
+[2025.04.24-21.58.53:386][911]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_MissileMeteor_C_0 via property ActorCollided, but BP_MissileMeteor_C_0 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-21.58.57:857][178]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-21.58.57:857][178]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=309.249 Y=-274.522 Z=140.001] for [BP_Meteor_C]
+[2025.04.24-21.58.57:858][178]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-21.58.57:858][178]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=239.249 Y=-274.522 Z=140.001] for [BP_Meteor_C]
+[2025.04.24-21.59.02:107][433]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-21.59.02:107][433]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-377.516 Y=805.630 Z=139.995] for [BP_Meteor_C]
+[2025.04.24-21.59.03:609][523]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-21.59.03:609][523]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=540.504 Y=-19.512 Z=139.992] for [BP_MissileMeteor_C]
+[2025.04.24-21.59.07:501][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-21.59.07:501][755]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Default
+[2025.04.24-21.59.07:514][755]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.24-21.59.07:514][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-21.59.07:515][755]LogContentBundle: [Default(Standalone)] Deleting container.
+[2025.04.24-21.59.07:520][755]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.24-21.59.07:524][755]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-21.59.07:543][755]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.24-21.59.07:544][755]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2025.04.24-21.59.07:544][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.04.24-21.59.07:547][755]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2025.04.24-21.59.07:550][755]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-21.59.07:570][755]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2025.04.24-21.59.07:739][756]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2025.04.24-21.59.23:637][149]LogSlate: Window 'Message Log' being destroyed
+[2025.04.24-21.59.23:646][149]LogSlate: Window 'Message Log' being destroyed
+[2025.04.24-21.59.51:262][661]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Game/BP/BP_Character.BP_Character
+[2025.04.24-21.59.51:262][661]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-21.59.51:262][661]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.24-22.01.13:718][149]BlueprintLog: New page: Compile BP_Projectile
+[2025.04.24-22.01.13:796][149]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.04.24-22.01.14:467][180]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-22.01.14:605][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_Projectile" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Projectile.uasset" SILENT=true
+[2025.04.24-22.01.14:622][180]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_Projectile
+[2025.04.24-22.01.14:623][180]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_Projectile2594A4AB403B1B90F2A0DA98CEE1F4F1.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Projectile.uasset'
+[2025.04.24-22.01.14:647][180]LogFileHelpers: InternalPromptForCheckoutAndSave took 180 ms (total: 3.59 sec)
+[2025.04.24-22.01.14:651][180]AssetCheck: New page: Asset Save: BP_Projectile
+[2025.04.24-22.01.14:651][180]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_Projectile.BP_Projectile
+[2025.04.24-22.01.21:372][569]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.24-22.01.21:382][569]BlueprintLog: New page: Pre-Play auto-recompile
+[2025.04.24-22.01.21:397][569]LogPlayLevel: [PlayLevel] Compiling Fuel_PickUp before play...
+[2025.04.24-22.01.21:455][569]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2025.04.24-22.01.21:457][569]LogPlayLevel: PlayLevel: Blueprint regeneration took 75 ms (1 blueprints)
+[2025.04.24-22.01.21:457][569]PIE: New page: PIE session: StartLevel (25 Apr 2025, 00:01:21)
+[2025.04.24-22.01.21:457][569]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_StartLevel
+[2025.04.24-22.01.21:460][569]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001224s)
+[2025.04.24-22.01.21:460][569]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/StartLevel.StartLevel to /Game/Level/UEDPIE_0_StartLevel.StartLevel (0.001268s)
+[2025.04.24-22.01.21:460][569]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-22.01.21:460][569]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.24-22.01.21:460][569]LogAIModule: Creating AISystem for world StartLevel
+[2025.04.24-22.01.21:460][569]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2025.04.24-22.01.21:482][569]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.04.24-22.01.21:483][569]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2025.04.24-22.01.21:483][569]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.24-22.01.21:483][569]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.24-22.01.21:483][569]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.24-22.01.21:483][569]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.24-22.01.21:483][569]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.24-22.01.21:483][569]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.04.24-22.01.21:483][569]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.24-22.01.21:483][569]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.24-22.01.21:484][569]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.24-22.01.21:484][569]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.24-22.01.21:484][569]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.24-22.01.21:487][569]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.24-22.01.21:556][569]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.04.24-22.01.21:556][569]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.24-22.01.21:556][569]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.24-22.01.21:556][569]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.24-22.01.21:557][569]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2025.04.24-22.01.21:557][569]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2025.04.24-22.01.21:559][569]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2025.04.24-22.01.21:559][569]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2025.04.24-22.01.21:559][569]LogInit: FAudioDevice initialized with ID 3.
+[2025.04.24-22.01.21:559][569]LogAudio: Display: Audio Device (ID: 3) registered with world 'StartLevel'.
+[2025.04.24-22.01.21:559][569]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2025.04.24-22.01.21:563][569]LogLoad: Game class is 'StartGameMode_C'
+[2025.04.24-22.01.21:563][569]LogWorld: Bringing World /Game/Level/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 60) at 2025.04.24-23.01.21
+[2025.04.24-22.01.21:563][569]LogWorld: Bringing up level for play took: 0.000373
+[2025.04.24-22.01.21:566][569]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2025.04.24-22.01.21:567][569]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.04.24-22.01.21:567][569]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2025.04.24-22.01.21:567][569]PIE: Server logged in
+[2025.04.24-22.01.21:569][569]PIE: Play in editor total start time 0.186 seconds.
+[2025.04.24-22.01.22:930][644]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.04.24-22.01.22:930][644]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.04.24-22.01.22:932][644]LogNet: Browse: /Game/Level/Default
+[2025.04.24-22.01.22:932][644]LogLoad: LoadMap: /Game/Level/Default
+[2025.04.24-22.01.22:932][644]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_StartLevel
+[2025.04.24-22.01.22:933][644]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2025.04.24-22.01.22:933][644]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-22.01.22:973][644]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.24-22.01.22:975][644]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.04.24-22.01.22:987][644]LogAudio: Display: Audio Device (ID: 3) registered with world 'Default'.
+[2025.04.24-22.01.22:987][644]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-22.01.22:987][644]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.24-22.01.22:989][644]LogAIModule: Creating AISystem for world Default
+[2025.04.24-22.01.22:989][644]LogWorldPartition: ULevel::OnLevelLoaded(Default)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.24-22.01.22:989][644]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.24-22.01.22:989][644]LogWorldPartition: UWorldPartition::Initialize(Asset=Default, IsEditor=0, bPIEWorldTravel=1 IsGame=0, IsCooking=0)
+[2025.04.24-22.01.23:000][644]LogWorldPartition: Display: GenerateStreaming started...
+[2025.04.24-22.01.23:000][644]LogWorldPartition: Display: GetPartitionedActors started...
+[2025.04.24-22.01.23:000][644]LogWorldPartition: Display: GetPartitionedActors took 42 us (total: 91 us)
+[2025.04.24-22.01.23:178][644]LogWorldPartition: Display: GenerateStreaming took 177 ms (total: 941 ms)
+[2025.04.24-22.01.23:186][644]LogContentBundle: [Default(Standalone)] Creating new contrainer.
+[2025.04.24-22.01.23:186][644]LogWorldPartition: Display: WorldPartition initialize took 197 ms (total: 981 ms)
+[2025.04.24-22.01.23:186][644]LogPlayLevel: PIE: World Init took: (0.198745s)
+[2025.04.24-22.01.23:186][644]LogLoad: Game class is 'BP_GameMode_C'
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/F/3Z/JHLLAYB19QKIATHE2OO4V6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/F/38/LYW18OIG3YK5TMMVQ3IDH0.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/E/SS/CIH3RRVQZ2R3VJFJWSV2D2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/E/NO/A4X9V9DGWAVSUVNT7T9PQM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/E/CY/80NNNSDW1USEZK4QCCABSH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/D/U9/MC3GQAGQBJ5HCFC7Y0XS76.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/D/U1/02NMTNFIO2TB6FKP50N6ZC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/D/H4/TW72E09DQ0EQ8LZLOPSQUX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/XT/V4LFLQO7ATZ7Z13QBRG2S1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/BB/K0IMC84PELF7R5C1MSXD4L.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/A7/SVWS1JBOLGJ29QPO7ED1VW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/8I/EY58D099DL4ELHWF5BCUUP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/5G/KTDOJEBXBQ09PB5WQ6DUZD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/3K/MMVP7NGFNSMG2Q91WPS5J0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/ZF/1BI7CQ7TEJQ03LG9HHUYFQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/MR/IUTRN4H5ZK1DKV42X0ODK1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/JN/6HZN1VFCWIDQHYP9A9Q7U7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/HZ/5M8EW2984UZMEYD050MG1C.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:195][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/CE/13JDTLQWEFGBV3J4QN8ENX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/A9/ZPKOGRB61J2KB4ES60LZNI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/RY/WB1NH9ONVGHHCGC7U2WK01.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/PG/2S40FR07E1AMJS3U7WXGMW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/HF/LUBXVRVK5ZDM7JUL6M6QEP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/CF/EGIEK0MIEPRQJHGRR8PZPZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/A6/L3JAQH6ZDQS63MDYURXPKD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/1K/WEE1TA2J3IH286YNHM7YVW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/11/72HHCJNIOD7PSHEN0OENHE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/9/SX/79TAWTDGQJ7NEYD43AAXJG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/9/L8/WIV3EQD5YZDPJY9L884IYT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/9/KP/UN2JLDQYETKH7GAKN1L8AX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/9/AT/6HZCJP2FFZ4NCLE5HU8764.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/9/8Y/X1UVK12XN6CJ1DDK9GG2J9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/8/P4/VYHYXO0TVI9GMX4239M2MA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/7/XI/VBLMWJU0Z63FS2SR7NP0WN.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/7/PE/X23CA17CUDU6KUFFBN8ANB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/7/GF/FVYJJIWA6VREE63H0ZZGK3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/7/FI/4XFDW1SOHP9CAHR4LC5L4V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/7/90/LNENYRTQLXEIGAKND2F468.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/6/US/BOQA4ND76SDX2O2STX2NQZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/6/65/S7YG94PV6PAH1AL76FBKIK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/ZI/FBGVMSZQAJS0DSGCK18VXK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/UA/AQITL7LY6EFG51YV3CH6BK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/R7/ZY3ZE361B9C3515W6SUVEG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/KO/1L7QQQM6YOQFJ6VUM9Y42B.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/D3/RRFJ7UHWJQ5TWULWANOU52.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/AX/XLRRF1LLRMWMJ2H4B4F1CB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/VV/1YATLPFJX9U6JV14WXEHZ6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/VL/TKST3DTKD7LQEMG6XF87OA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/TA/US6ZHJZRB4JH4CR7G51IRM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/KR/ZI5B9SU78AONKYHG5E5GAT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/JF/NDUKIY9C2SESQFWC28BMEU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/1S/PN3HJAC6GYP7HJW7M8ISQ3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/3/A2/YP8DCJOCG8QGU17AJ2ISBE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/3/37/9UB3QEV8VQZVAANK1ARFAO.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/3/20/E8IBK8LOY8B5UTSPFQR8UF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/2/X9/FP5J6GTR34ZY1P0CNDHQPX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/2/EZ/MC2T7IJEP5TPC31I2ZSI4E.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/2/B6/PSPV3JXS9KH279W4M38Z2C.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/2/5U/SDE17T30CH0SIXVLBEOAKA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/1/Z3/C2XIBXLUPYXTIG9AY9UJ9V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/1/WG/UNARF2LDQOD2CUHZCK3167.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/1/5V/89LWOCK2D3KW4SWFYBFKLZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/0/Q2/BQIROXM52RRQJ98XZ5VEX9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:196][644]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/0/4I/YXOUP7FUEGTQMV1O81FK56.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.01.23:203][644]LogWorld: Bringing World /Game/Level/UEDPIE_0_Default.Default up for play (max tick rate 60) at 2025.04.24-23.01.23
+[2025.04.24-22.01.23:203][644]LogWorld: Bringing up level for play took: 0.006127
+[2025.04.24-22.01.23:205][644]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Game/UI/BP_health.BP_health_C:SetTimerVar'!
+[2025.04.24-22.01.23:205][644]LogScript: Warning: Script Msg called by: BP_health_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.BP_health_C_0
+[2025.04.24-22.01.23:207][644]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(36), CellsToLoad(0), CellsToUnload(0)
+[2025.04.24-22.01.23:207][644]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=140.000,P=0.000000 Y=0.000000 R=-0.000000
+[2025.04.24-22.01.23:210][644]LogStreaming: Display: FlushAsyncLoading(-1): 42 QueuedPackages, 0 AsyncPackages
+[2025.04.24-22.01.23:613][644]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(4), CellsToLoad(0), CellsToUnload(0)
+[2025.04.24-22.01.23:613][644]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-29.997 Y=-20.005 Z=1224.295,P=0.000000 Y=0.000000 R=-0.000000
+[2025.04.24-22.01.23:659][644]LogLoad: Took 0.727030 seconds to LoadMap(/Game/Level/Default)
+[2025.04.24-22.01.27:809][890]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.01.27:809][890]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-373.972 Y=805.863 Z=139.998] for [BP_GravityMeteor_C]
+[2025.04.24-22.01.30:809][ 70]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.01.30:809][ 70]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-373.899 Y=807.312 Z=140.008] for [BP_MissileMeteor_C]
+[2025.04.24-22.01.32:310][160]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.01.32:310][160]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-373.167 Y=809.467 Z=139.992] for [BP_GravityMeteor_C]
+[2025.04.24-22.01.33:442][228]LogScript: Warning: Attempted to access BP_Meteor_C_0 via property ActorCollided, but BP_Meteor_C_0 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_20
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:039F
+[2025.04.24-22.01.33:442][228]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_0 via property ActorCollided, but BP_Meteor_C_0 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.01.33:442][228]LogScript: Warning: Attempted to access BP_Meteor_C_0 via property ActorCollided, but BP_Meteor_C_0 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_20
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:03D1
+[2025.04.24-22.01.33:442][228]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_0 via property ActorCollided, but BP_Meteor_C_0 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.01.33:442][228]LogScript: Warning: Attempted to access BP_Meteor_C_0 via property ActorCollided, but BP_Meteor_C_0 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_20
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04B6
+[2025.04.24-22.01.33:442][228]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_0 via property ActorCollided, but BP_Meteor_C_0 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.01.33:442][228]LogScript: Warning: Attempted to access BP_Meteor_C_0 via property ActorCollided, but BP_Meteor_C_0 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_20
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04E8
+[2025.04.24-22.01.33:442][228]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_0 via property ActorCollided, but BP_Meteor_C_0 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.01.33:442][228]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_0.Trigger has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2025.04.24-22.01.33:442][228]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_0.Trigger' 
+[2025.04.24-22.01.35:310][340]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.01.35:311][340]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-375.214 Y=809.878 Z=140.000] for [BP_GravityMeteor_C]
+[2025.04.24-22.01.40:125][628]LogScript: Warning: Attempted to access BP_Meteor_C_3 via property ActorCollided, but BP_Meteor_C_3 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_39
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:039F
+[2025.04.24-22.01.40:125][628]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_3 via property ActorCollided, but BP_Meteor_C_3 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.01.40:125][628]LogScript: Warning: Attempted to access BP_Meteor_C_3 via property ActorCollided, but BP_Meteor_C_3 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_39
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:03D1
+[2025.04.24-22.01.40:125][628]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_3 via property ActorCollided, but BP_Meteor_C_3 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.01.40:125][628]LogScript: Warning: Attempted to access BP_Meteor_C_3 via property ActorCollided, but BP_Meteor_C_3 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_39
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04B6
+[2025.04.24-22.01.40:125][628]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_3 via property ActorCollided, but BP_Meteor_C_3 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.01.40:125][628]LogScript: Warning: Attempted to access BP_Meteor_C_3 via property ActorCollided, but BP_Meteor_C_3 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_39
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04E8
+[2025.04.24-22.01.40:125][628]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_3 via property ActorCollided, but BP_Meteor_C_3 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.01.40:126][628]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_1.Trigger has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2025.04.24-22.01.40:126][628]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_1.Trigger' 
+[2025.04.24-22.01.50:310][239]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.01.50:310][239]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-376.425 Y=805.940 Z=140.001] for [BP_MissileMeteor_C]
+[2025.04.24-22.01.53:310][419]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.01.53:310][419]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-372.086 Y=805.232 Z=140.003] for [BP_GravityMeteor_C]
+[2025.04.24-22.01.54:811][509]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.01.54:811][509]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=539.236 Y=-22.658 Z=140.001] for [BP_ClusterMeteor_C]
+[2025.04.24-22.02.01:614][917]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.02.01:614][917]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=326.481 Y=634.606 Z=139.998] for [BP_Meteor_C]
+[2025.04.24-22.02.01:614][917]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.02.01:614][917]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=396.481 Y=634.606 Z=139.998] for [BP_Meteor_C]
+[2025.04.24-22.02.02:847][991]LogScript: Warning: Attempted to access BP_Meteor_C_7 via property ActorCollided, but BP_Meteor_C_7 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_115
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:039F
+[2025.04.24-22.02.02:847][991]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_7 via property ActorCollided, but BP_Meteor_C_7 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.02.02:847][991]LogScript: Warning: Attempted to access BP_Meteor_C_7 via property ActorCollided, but BP_Meteor_C_7 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_115
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:03D1
+[2025.04.24-22.02.02:847][991]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_7 via property ActorCollided, but BP_Meteor_C_7 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.02.02:847][991]LogScript: Warning: Attempted to access BP_Meteor_C_7 via property ActorCollided, but BP_Meteor_C_7 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_115
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04B6
+[2025.04.24-22.02.02:847][991]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_7 via property ActorCollided, but BP_Meteor_C_7 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.02.02:847][991]LogScript: Warning: Attempted to access BP_Meteor_C_7 via property ActorCollided, but BP_Meteor_C_7 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_115
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04E8
+[2025.04.24-22.02.02:847][991]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_7 via property ActorCollided, but BP_Meteor_C_7 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.02.02:847][991]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_2.Trigger has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2025.04.24-22.02.02:847][991]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_2.Trigger' 
+[2025.04.24-22.02.05:302][138]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.02.05:302][138]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-376.362 Y=808.071 Z=139.997] for [BP_ClusterMeteor_C]
+[2025.04.24-22.02.08:302][318]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.02.08:302][318]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-373.724 Y=805.390 Z=140.004] for [BP_ClusterMeteor_C]
+[2025.04.24-22.02.09:806][408]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.02.09:806][408]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=542.780 Y=-19.405 Z=140.008] for [BP_Meteor_C]
+[2025.04.24-22.02.11:309][498]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.02.11:309][498]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-374.395 Y=804.280 Z=140.007] for [BP_GravityMeteor_C]
+[2025.04.24-22.02.15:958][777]LogScript: Warning: Attempted to access BP_Meteor_C_11 via property ActorCollided, but BP_Meteor_C_11 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_158
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:039F
+[2025.04.24-22.02.15:958][777]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_11 via property ActorCollided, but BP_Meteor_C_11 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.02.15:958][777]LogScript: Warning: Attempted to access BP_Meteor_C_11 via property ActorCollided, but BP_Meteor_C_11 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_158
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:03D1
+[2025.04.24-22.02.15:958][777]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_11 via property ActorCollided, but BP_Meteor_C_11 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.02.15:958][777]LogScript: Warning: Attempted to access BP_Meteor_C_11 via property ActorCollided, but BP_Meteor_C_11 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_158
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04B6
+[2025.04.24-22.02.15:958][777]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_11 via property ActorCollided, but BP_Meteor_C_11 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.02.15:958][777]LogScript: Warning: Attempted to access BP_Meteor_C_11 via property ActorCollided, but BP_Meteor_C_11 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_158
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04E8
+[2025.04.24-22.02.15:958][777]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_11 via property ActorCollided, but BP_Meteor_C_11 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.02.15:959][777]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_3.Trigger has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2025.04.24-22.02.15:959][777]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_3.Trigger' 
+[2025.04.24-22.02.16:242][794]LogScript: Warning: Attempted to access BP_MissileMeteor_C_5 via property ActorCollided, but BP_MissileMeteor_C_5 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_159
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:039F
+[2025.04.24-22.02.16:242][794]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_MissileMeteor_C_5 via property ActorCollided, but BP_MissileMeteor_C_5 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.02.16:242][794]LogScript: Warning: Attempted to access BP_MissileMeteor_C_5 via property ActorCollided, but BP_MissileMeteor_C_5 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_159
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:03D1
+[2025.04.24-22.02.16:242][794]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_MissileMeteor_C_5 via property ActorCollided, but BP_MissileMeteor_C_5 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.02.16:242][794]LogScript: Warning: Attempted to access BP_MissileMeteor_C_5 via property ActorCollided, but BP_MissileMeteor_C_5 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_159
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04B6
+[2025.04.24-22.02.16:242][794]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_MissileMeteor_C_5 via property ActorCollided, but BP_MissileMeteor_C_5 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.02.16:242][794]LogScript: Warning: Attempted to access BP_MissileMeteor_C_5 via property ActorCollided, but BP_MissileMeteor_C_5 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_159
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04E8
+[2025.04.24-22.02.16:242][794]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_MissileMeteor_C_5 via property ActorCollided, but BP_MissileMeteor_C_5 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.02.16:242][794]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_4.Trigger has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2025.04.24-22.02.16:242][794]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_4.Trigger' 
+[2025.04.24-22.02.18:810][948]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.02.18:810][948]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-373.965 Y=804.586 Z=140.002] for [BP_MissileMeteor_C]
+[2025.04.24-22.02.23:301][217]LogPlayerController: Error: InputMode:UIOnly - Attempting to focus Non-Focusable widget SObjectWidget [Widget.cpp(918)]!
+[2025.04.24-22.02.23:301][217]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.04.24-22.02.23:301][217]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently -> NoCapture
+[2025.04.24-22.02.52:102][943]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.04.24-22.02.52:102][943]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.04.24-22.02.56:604][213]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.02.56:604][213]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=540.753 Y=-17.179 Z=140.007] for [BP_GravityMeteor_C]
+[2025.04.24-22.03.06:091][782]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.03.06:091][782]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=539.064 Y=-18.864 Z=140.010] for [BP_ClusterMeteor_C]
+[2025.04.24-22.03.07:770][883]LogScript: Warning: Attempted to access BP_Meteor_C_13 via property ActorCollided, but BP_Meteor_C_13 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_191
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:039F
+[2025.04.24-22.03.07:771][883]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_13 via property ActorCollided, but BP_Meteor_C_13 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.07:771][883]LogScript: Warning: Attempted to access BP_Meteor_C_13 via property ActorCollided, but BP_Meteor_C_13 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_191
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:03D1
+[2025.04.24-22.03.07:771][883]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_13 via property ActorCollided, but BP_Meteor_C_13 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.07:771][883]LogScript: Warning: Attempted to access BP_Meteor_C_13 via property ActorCollided, but BP_Meteor_C_13 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_191
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04B6
+[2025.04.24-22.03.07:771][883]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_13 via property ActorCollided, but BP_Meteor_C_13 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.07:771][883]LogScript: Warning: Attempted to access BP_Meteor_C_13 via property ActorCollided, but BP_Meteor_C_13 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_191
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04E8
+[2025.04.24-22.03.07:771][883]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_13 via property ActorCollided, but BP_Meteor_C_13 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.07:771][883]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_5.Trigger has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2025.04.24-22.03.07:771][883]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_5.Trigger' 
+[2025.04.24-22.03.11:859][128]LogScript: Warning: Attempted to access BP_Meteor_C_18 via property ActorCollided, but BP_Meteor_C_18 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_211
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:039F
+[2025.04.24-22.03.11:859][128]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_18 via property ActorCollided, but BP_Meteor_C_18 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.11:859][128]LogScript: Warning: Attempted to access BP_Meteor_C_18 via property ActorCollided, but BP_Meteor_C_18 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_211
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:03D1
+[2025.04.24-22.03.11:859][128]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_18 via property ActorCollided, but BP_Meteor_C_18 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.11:859][128]LogScript: Warning: Attempted to access BP_Meteor_C_18 via property ActorCollided, but BP_Meteor_C_18 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_211
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04B6
+[2025.04.24-22.03.11:859][128]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_18 via property ActorCollided, but BP_Meteor_C_18 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.11:859][128]LogScript: Warning: Attempted to access BP_Meteor_C_18 via property ActorCollided, but BP_Meteor_C_18 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_211
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04E8
+[2025.04.24-22.03.11:859][128]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_18 via property ActorCollided, but BP_Meteor_C_18 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.11:860][128]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_6.Trigger has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2025.04.24-22.03.11:860][128]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_6.Trigger' 
+[2025.04.24-22.03.12:045][139]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.03.12:045][139]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=126.263 Y=-274.469 Z=140.005] for [BP_Meteor_C]
+[2025.04.24-22.03.12:092][142]LogScript: Warning: Attempted to access BP_Meteor_C_19 via property ActorCollided, but BP_Meteor_C_19 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_213
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:039F
+[2025.04.24-22.03.12:092][142]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_19 via property ActorCollided, but BP_Meteor_C_19 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.12:092][142]LogScript: Warning: Attempted to access BP_Meteor_C_19 via property ActorCollided, but BP_Meteor_C_19 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_213
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:03D1
+[2025.04.24-22.03.12:092][142]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_19 via property ActorCollided, but BP_Meteor_C_19 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.12:092][142]LogScript: Warning: Attempted to access BP_Meteor_C_19 via property ActorCollided, but BP_Meteor_C_19 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_213
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04B6
+[2025.04.24-22.03.12:092][142]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_19 via property ActorCollided, but BP_Meteor_C_19 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.12:092][142]LogScript: Warning: Attempted to access BP_Meteor_C_19 via property ActorCollided, but BP_Meteor_C_19 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_213
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04E8
+[2025.04.24-22.03.12:092][142]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_19 via property ActorCollided, but BP_Meteor_C_19 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.12:092][142]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_7.Trigger has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2025.04.24-22.03.12:092][142]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_7.Trigger' 
+[2025.04.24-22.03.13:659][236]LogScript: Warning: Attempted to access BP_Meteor_C_17 via property ActorCollided, but BP_Meteor_C_17 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_220
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:039F
+[2025.04.24-22.03.13:659][236]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_17 via property ActorCollided, but BP_Meteor_C_17 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.13:659][236]LogScript: Warning: Attempted to access BP_Meteor_C_17 via property ActorCollided, but BP_Meteor_C_17 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_220
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:03D1
+[2025.04.24-22.03.13:659][236]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_17 via property ActorCollided, but BP_Meteor_C_17 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.13:659][236]LogScript: Warning: Attempted to access BP_Meteor_C_17 via property ActorCollided, but BP_Meteor_C_17 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_220
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04B6
+[2025.04.24-22.03.13:659][236]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_17 via property ActorCollided, but BP_Meteor_C_17 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.13:659][236]LogScript: Warning: Attempted to access BP_Meteor_C_17 via property ActorCollided, but BP_Meteor_C_17 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_220
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04E8
+[2025.04.24-22.03.13:660][236]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_Meteor_C_17 via property ActorCollided, but BP_Meteor_C_17 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.13:660][236]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_8.Trigger has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2025.04.24-22.03.13:660][236]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_8.Trigger' 
+[2025.04.24-22.03.16:693][418]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.03.16:693][418]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=542.119 Y=-18.878 Z=140.002] for [BP_MissileMeteor_C]
+[2025.04.24-22.03.22:294][754]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.03.22:294][754]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=539.764 Y=-21.067 Z=140.010] for [BP_GravityMeteor_C]
+[2025.04.24-22.03.23:394][820]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.03.23:394][820]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=542.491 Y=-17.945 Z=140.004] for [BP_MissileMeteor_C]
+[2025.04.24-22.03.24:211][869]LogScript: Warning: Attempted to access BP_ClusterMeteor_C_12 via property ActorCollided, but BP_ClusterMeteor_C_12 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_273
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:039F
+[2025.04.24-22.03.24:211][869]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ClusterMeteor_C_12 via property ActorCollided, but BP_ClusterMeteor_C_12 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.24:211][869]LogScript: Warning: Attempted to access BP_ClusterMeteor_C_12 via property ActorCollided, but BP_ClusterMeteor_C_12 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_273
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:03D1
+[2025.04.24-22.03.24:211][869]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ClusterMeteor_C_12 via property ActorCollided, but BP_ClusterMeteor_C_12 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.24:211][869]LogScript: Warning: Attempted to access BP_ClusterMeteor_C_12 via property ActorCollided, but BP_ClusterMeteor_C_12 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_273
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04B6
+[2025.04.24-22.03.24:211][869]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ClusterMeteor_C_12 via property ActorCollided, but BP_ClusterMeteor_C_12 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.24:211][869]LogScript: Warning: Attempted to access BP_ClusterMeteor_C_12 via property ActorCollided, but BP_ClusterMeteor_C_12 is not valid (pending kill or garbage)
+	BP_Projectile_C /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.BP_Projectile_C_273
+	Function /Game/Game/BP/BP_Projectile.BP_Projectile_C:DestroyMeteors:04E8
+[2025.04.24-22.03.24:211][869]PIE: Error: Blueprint Runtime Error: "Attempted to access BP_ClusterMeteor_C_12 via property ActorCollided, but BP_ClusterMeteor_C_12 is not valid (pending kill or garbage)". Node:  SpawnActor Fuel Pick Up Graph:  DestroyMeteors Function:  Destroy Meteors Blueprint:  BP_Projectile
+[2025.04.24-22.03.24:212][869]LogPhysics: Warning: Scale for /Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_9.Trigger has a component set to zero, which will result in a bad body instance. Scale:X=0.000 Y=0.000 Z=0.000
+[2025.04.24-22.03.24:212][869]LogPhysics: Warning: Initialising Body : Scale3D is (nearly) zero: Component: '/Game/Level/UEDPIE_0_Default.Default:PersistentLevel.Fuel_PickUp_C_9.Trigger' 
+[2025.04.24-22.03.24:494][886]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.03.24:494][886]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=542.161 Y=-20.161 Z=139.992] for [BP_GravityMeteor_C]
+[2025.04.24-22.03.26:550][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-22.03.26:550][  8]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Default
+[2025.04.24-22.03.26:563][  8]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.24-22.03.26:564][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-22.03.26:565][  8]LogContentBundle: [Default(Standalone)] Deleting container.
+[2025.04.24-22.03.26:569][  8]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.24-22.03.26:576][  8]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-22.03.26:605][  8]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-22.03.26:605][  8]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2025.04.24-22.03.26:605][  8]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.04.24-22.03.26:608][  8]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2025.04.24-22.03.26:630][  8]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2025.04.24-22.03.26:821][  9]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2025.04.24-22.03.48:513][495]LogSlate: Window 'Message Log' being destroyed
+[2025.04.24-22.03.48:576][495]LogSlate: Window 'Message Log' being destroyed
+[2025.04.24-22.04.42:099][ 51]BlueprintLog: New page: Compile BP_Projectile
+[2025.04.24-22.04.42:312][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2025.04.24-22.04.43:557][ 98]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-22.04.43:723][ 98]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_Projectile" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Projectile.uasset" SILENT=true
+[2025.04.24-22.04.43:749][ 98]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_Projectile
+[2025.04.24-22.04.43:750][ 98]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_Projectile3B42220A46890F247C62E89B9BFFF0A3.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Projectile.uasset'
+[2025.04.24-22.04.43:768][ 98]LogFileHelpers: InternalPromptForCheckoutAndSave took 209 ms (total: 3.80 sec)
+[2025.04.24-22.04.43:775][ 98]AssetCheck: New page: Asset Save: BP_Projectile
+[2025.04.24-22.04.43:775][ 98]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_Projectile.BP_Projectile
+[2025.04.24-22.04.58:813][840]BlueprintLog: New page: Compile BP_Projectile
+[2025.04.24-22.04.58:940][840]LogUObjectHash: Compacting FUObjectHashTables data took   3.50ms
+[2025.04.24-22.04.59:648][865]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-22.04.59:848][865]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_Projectile" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Projectile.uasset" SILENT=true
+[2025.04.24-22.04.59:876][865]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_Projectile
+[2025.04.24-22.04.59:877][865]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_ProjectileD0C75D244625D38505CDD8923F400589.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Projectile.uasset'
+[2025.04.24-22.04.59:911][865]LogFileHelpers: InternalPromptForCheckoutAndSave took 263 ms (total: 4.07 sec)
+[2025.04.24-22.04.59:919][865]AssetCheck: New page: Asset Save: BP_Projectile
+[2025.04.24-22.04.59:919][865]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_Projectile.BP_Projectile
+[2025.04.24-22.05.30:152][489]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-22.05.30:300][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_Character" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Character.uasset" SILENT=true
+[2025.04.24-22.05.30:326][489]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_Character
+[2025.04.24-22.05.30:327][489]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_Character7410F00D419186919819B49FBACC7908.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Character.uasset'
+[2025.04.24-22.05.30:355][489]LogFileHelpers: InternalPromptForCheckoutAndSave took 202 ms (total: 4.27 sec)
+[2025.04.24-22.05.30:358][489]AssetCheck: New page: Asset Save: BP_Character
+[2025.04.24-22.05.30:358][489]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_Character.BP_Character
+[2025.04.24-22.05.34:680][712]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.04.24-22.05.34:693][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.04.24-22.05.34:693][712]PIE: New page: PIE session: StartLevel (25 Apr 2025, 00:05:34)
+[2025.04.24-22.05.34:693][712]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_StartLevel
+[2025.04.24-22.05.34:694][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001591s)
+[2025.04.24-22.05.34:694][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/StartLevel.StartLevel to /Game/Level/UEDPIE_0_StartLevel.StartLevel (0.001652s)
+[2025.04.24-22.05.34:695][712]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-22.05.34:695][712]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.24-22.05.34:695][712]LogAIModule: Creating AISystem for world StartLevel
+[2025.04.24-22.05.34:696][712]LogPlayLevel: PIE: World Init took: (0.001447s)
+[2025.04.24-22.05.34:751][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.04.24-22.05.34:756][712]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2025.04.24-22.05.34:756][712]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.04.24-22.05.34:756][712]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.04.24-22.05.34:756][712]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.04.24-22.05.34:756][712]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.04.24-22.05.34:756][712]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.04.24-22.05.34:756][712]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2025.04.24-22.05.34:756][712]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.04.24-22.05.34:756][712]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.04.24-22.05.34:756][712]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.04.24-22.05.34:756][712]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.04.24-22.05.34:756][712]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.04.24-22.05.34:760][712]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.04.24-22.05.34:852][712]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2025.04.24-22.05.34:852][712]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.04.24-22.05.34:852][712]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.04.24-22.05.34:852][712]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.04.24-22.05.34:853][712]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2025.04.24-22.05.34:853][712]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2025.04.24-22.05.34:856][712]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2025.04.24-22.05.34:856][712]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2025.04.24-22.05.34:857][712]LogInit: FAudioDevice initialized with ID 4.
+[2025.04.24-22.05.34:857][712]LogAudio: Display: Audio Device (ID: 4) registered with world 'StartLevel'.
+[2025.04.24-22.05.34:857][712]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2025.04.24-22.05.34:860][712]LogLoad: Game class is 'StartGameMode_C'
+[2025.04.24-22.05.34:861][712]LogWorld: Bringing World /Game/Level/UEDPIE_0_StartLevel.StartLevel up for play (max tick rate 60) at 2025.04.24-23.05.34
+[2025.04.24-22.05.34:862][712]LogWorld: Bringing up level for play took: 0.000544
+[2025.04.24-22.05.34:865][712]LogOnline: OSS: Created online subsystem instance for: :Context_23
+[2025.04.24-22.05.34:867][712]LogViewport: Display: Viewport MouseLockMode Changed, LockOnCapture -> DoNotLock
+[2025.04.24-22.05.34:867][712]LogViewport: Display: Viewport MouseCaptureMode Changed, CapturePermanently_IncludingInitialMouseDown -> NoCapture
+[2025.04.24-22.05.34:867][712]PIE: Server logged in
+[2025.04.24-22.05.34:867][712]PIE: Play in editor total start time 0.176 seconds.
+[2025.04.24-22.05.35:909][766]LogViewport: Display: Viewport MouseLockMode Changed, DoNotLock -> LockOnCapture
+[2025.04.24-22.05.35:909][766]LogViewport: Display: Viewport MouseCaptureMode Changed, NoCapture -> CapturePermanently
+[2025.04.24-22.05.35:911][766]LogNet: Browse: /Game/Level/Default
+[2025.04.24-22.05.35:911][766]LogLoad: LoadMap: /Game/Level/Default
+[2025.04.24-22.05.35:911][766]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_StartLevel
+[2025.04.24-22.05.35:913][766]LogWorld: UWorld::CleanupWorld for StartLevel, bSessionEnded=true, bCleanupResources=true
+[2025.04.24-22.05.35:913][766]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-22.05.35:957][766]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.24-22.05.35:960][766]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.04.24-22.05.35:974][766]LogAudio: Display: Audio Device (ID: 4) registered with world 'Default'.
+[2025.04.24-22.05.35:974][766]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2025.04.24-22.05.35:975][766]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2025.04.24-22.05.35:975][766]LogAIModule: Creating AISystem for world Default
+[2025.04.24-22.05.35:976][766]LogWorldPartition: ULevel::OnLevelLoaded(Default)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, bIsValidLevelInstance=0, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2025.04.24-22.05.35:976][766]LogWorldPartition: Display: WorldPartition initialize started...
+[2025.04.24-22.05.35:976][766]LogWorldPartition: UWorldPartition::Initialize(Asset=Default, IsEditor=0, bPIEWorldTravel=1 IsGame=0, IsCooking=0)
+[2025.04.24-22.05.35:989][766]LogWorldPartition: Display: GenerateStreaming started...
+[2025.04.24-22.05.35:989][766]LogWorldPartition: Display: GetPartitionedActors started...
+[2025.04.24-22.05.35:989][766]LogWorldPartition: Display: GetPartitionedActors took 57 us (total: 149 us)
+[2025.04.24-22.05.36:226][766]LogWorldPartition: Display: GenerateStreaming took 236 ms (total: 1.17 sec)
+[2025.04.24-22.05.36:237][766]LogContentBundle: [Default(Standalone)] Creating new contrainer.
+[2025.04.24-22.05.36:237][766]LogWorldPartition: Display: WorldPartition initialize took 261 ms (total: 1.24 sec)
+[2025.04.24-22.05.36:237][766]LogPlayLevel: PIE: World Init took: (0.263037s)
+[2025.04.24-22.05.36:237][766]LogLoad: Game class is 'BP_GameMode_C'
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/F/3Z/JHLLAYB19QKIATHE2OO4V6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/F/38/LYW18OIG3YK5TMMVQ3IDH0.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/E/SS/CIH3RRVQZ2R3VJFJWSV2D2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/E/NO/A4X9V9DGWAVSUVNT7T9PQM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/E/CY/80NNNSDW1USEZK4QCCABSH.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/D/U9/MC3GQAGQBJ5HCFC7Y0XS76.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/D/U1/02NMTNFIO2TB6FKP50N6ZC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/D/H4/TW72E09DQ0EQ8LZLOPSQUX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/XT/V4LFLQO7ATZ7Z13QBRG2S1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/BB/K0IMC84PELF7R5C1MSXD4L.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/A7/SVWS1JBOLGJ29QPO7ED1VW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/8I/EY58D099DL4ELHWF5BCUUP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/5G/KTDOJEBXBQ09PB5WQ6DUZD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/C/3K/MMVP7NGFNSMG2Q91WPS5J0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/ZF/1BI7CQ7TEJQ03LG9HHUYFQ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/MR/IUTRN4H5ZK1DKV42X0ODK1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/JN/6HZN1VFCWIDQHYP9A9Q7U7.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/HZ/5M8EW2984UZMEYD050MG1C.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:247][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/CE/13JDTLQWEFGBV3J4QN8ENX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/B/A9/ZPKOGRB61J2KB4ES60LZNI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/RY/WB1NH9ONVGHHCGC7U2WK01.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/PG/2S40FR07E1AMJS3U7WXGMW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/HF/LUBXVRVK5ZDM7JUL6M6QEP.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/CF/EGIEK0MIEPRQJHGRR8PZPZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/A6/L3JAQH6ZDQS63MDYURXPKD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/1K/WEE1TA2J3IH286YNHM7YVW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/A/11/72HHCJNIOD7PSHEN0OENHE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/9/SX/79TAWTDGQJ7NEYD43AAXJG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/9/L8/WIV3EQD5YZDPJY9L884IYT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/9/KP/UN2JLDQYETKH7GAKN1L8AX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/9/AT/6HZCJP2FFZ4NCLE5HU8764.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/9/8Y/X1UVK12XN6CJ1DDK9GG2J9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/8/P4/VYHYXO0TVI9GMX4239M2MA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/7/XI/VBLMWJU0Z63FS2SR7NP0WN.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/7/PE/X23CA17CUDU6KUFFBN8ANB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/7/GF/FVYJJIWA6VREE63H0ZZGK3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/7/FI/4XFDW1SOHP9CAHR4LC5L4V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/7/90/LNENYRTQLXEIGAKND2F468.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/6/US/BOQA4ND76SDX2O2STX2NQZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/6/65/S7YG94PV6PAH1AL76FBKIK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/ZI/FBGVMSZQAJS0DSGCK18VXK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/UA/AQITL7LY6EFG51YV3CH6BK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/R7/ZY3ZE361B9C3515W6SUVEG.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/KO/1L7QQQM6YOQFJ6VUM9Y42B.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/D3/RRFJ7UHWJQ5TWULWANOU52.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/5/AX/XLRRF1LLRMWMJ2H4B4F1CB.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/VV/1YATLPFJX9U6JV14WXEHZ6.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/VL/TKST3DTKD7LQEMG6XF87OA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/TA/US6ZHJZRB4JH4CR7G51IRM.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/KR/ZI5B9SU78AONKYHG5E5GAT.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/JF/NDUKIY9C2SESQFWC28BMEU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/4/1S/PN3HJAC6GYP7HJW7M8ISQ3.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/3/A2/YP8DCJOCG8QGU17AJ2ISBE.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/3/37/9UB3QEV8VQZVAANK1ARFAO.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/3/20/E8IBK8LOY8B5UTSPFQR8UF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/2/X9/FP5J6GTR34ZY1P0CNDHQPX.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:249][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/2/EZ/MC2T7IJEP5TPC31I2ZSI4E.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:250][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/2/B6/PSPV3JXS9KH279W4M38Z2C.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:250][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/2/5U/SDE17T30CH0SIXVLBEOAKA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:250][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/1/Z3/C2XIBXLUPYXTIG9AY9UJ9V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:250][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/1/WG/UNARF2LDQOD2CUHZCK3167.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:250][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/1/5V/89LWOCK2D3KW4SWFYBFKLZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:250][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/0/Q2/BQIROXM52RRQJ98XZ5VEX9.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:250][766]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/Level/UEDPIE_0_Default_InstanceOf_/Game/__ExternalActors__/Level/Default/0/4I/YXOUP7FUEGTQMV1O81FK56.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2025.04.24-22.05.36:259][766]LogWorld: Bringing World /Game/Level/UEDPIE_0_Default.Default up for play (max tick rate 60) at 2025.04.24-23.05.36
+[2025.04.24-22.05.36:259][766]LogWorld: Bringing up level for play took: 0.008742
+[2025.04.24-22.05.36:264][766]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllActorsOfClass_OutActors' of length 0 in '/Game/Game/UI/BP_health.BP_health_C:SetTimerVar'!
+[2025.04.24-22.05.36:264][766]LogScript: Warning: Script Msg called by: BP_health_C /Engine/Transient.UnrealEdEngine_0:GameInstance_2.BP_health_C_0
+[2025.04.24-22.05.36:265][766]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(36), CellsToLoad(0), CellsToUnload(0)
+[2025.04.24-22.05.36:265][766]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=140.000,P=0.000000 Y=0.000000 R=-0.000000
+[2025.04.24-22.05.36:269][766]LogStreaming: Display: FlushAsyncLoading(-1): 42 QueuedPackages, 0 AsyncPackages
+[2025.04.24-22.05.36:798][766]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(4), CellsToLoad(0), CellsToUnload(0)
+[2025.04.24-22.05.36:798][766]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=-29.997 Y=-20.005 Z=1224.295,P=0.000000 Y=0.000000 R=-0.000000
+[2025.04.24-22.05.36:858][766]LogLoad: Took 0.947428 seconds to LoadMap(/Game/Level/Default)
+[2025.04.24-22.05.42:519][100]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.05.42:519][100]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-376.101 Y=809.614 Z=139.992] for [BP_MissileMeteor_C]
+[2025.04.24-22.05.45:521][280]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.05.45:521][280]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-372.435 Y=807.526 Z=140.009] for [BP_MissileMeteor_C]
+[2025.04.24-22.05.51:519][637]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.05.51:519][637]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=539.023 Y=-22.944 Z=140.001] for [BP_MissileMeteor_C]
+[2025.04.24-22.05.56:485][935]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.05.56:485][935]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-359.576 Y=658.588 Z=139.992] for [BP_Meteor_C]
+[2025.04.24-22.05.56:485][935]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.05.56:485][935]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-429.576 Y=658.588 Z=139.992] for [BP_Meteor_C]
+[2025.04.24-22.06.00:519][177]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.06.00:519][177]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=540.314 Y=-19.900 Z=139.998] for [BP_Meteor_C]
+[2025.04.24-22.06.06:519][537]LogPhysics: Warning: UWorld::FindTeleportSpot called with an actor that is intersecting geometry. Failed to find new location likely due to  actor's root component not being a collider component.
+[2025.04.24-22.06.06:519][537]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=543.325 Y=-22.272 Z=140.008] for [BP_GravityMeteor_C]
+[2025.04.24-22.06.06:830][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-22.06.06:830][554]LogWorld: BeginTearingDown for /Game/Level/UEDPIE_0_Default
+[2025.04.24-22.06.06:843][554]LogWorld: UWorld::CleanupWorld for Default, bSessionEnded=true, bCleanupResources=true
+[2025.04.24-22.06.06:843][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-22.06.06:844][554]LogContentBundle: [Default(Standalone)] Deleting container.
+[2025.04.24-22.06.06:849][554]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.04.24-22.06.06:852][554]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.04.24-22.06.06:880][554]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.04.24-22.06.06:880][554]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2025.04.24-22.06.06:880][554]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.04.24-22.06.06:882][554]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2025.04.24-22.06.06:887][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.04.24-22.06.06:901][554]LogUObjectHash: Compacting FUObjectHashTables data took   1.00ms
+[2025.04.24-22.06.06:938][555]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2025.04.24-22.06.26:876][601]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-22.06.27:018][601]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_Character" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Character.uasset" SILENT=true
+[2025.04.24-22.06.27:076][601]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_Character
+[2025.04.24-22.06.27:077][601]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_Character27ADCB184F23713843D31D890486923B.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Character.uasset'
+[2025.04.24-22.06.27:110][601]LogFileHelpers: InternalPromptForCheckoutAndSave took 234 ms (total: 4.50 sec)
+[2025.04.24-22.06.27:116][601]AssetCheck: New page: Asset Save: BP_Character
+[2025.04.24-22.06.27:116][601]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_Character.BP_Character
+[2025.04.24-22.06.37:987][ 77]BlueprintLog: New page: Compile BP_Projectile
+[2025.04.24-22.06.38:164][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2025.04.24-22.06.39:561][129]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-22.06.39:753][129]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_Projectile" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Projectile.uasset" SILENT=true
+[2025.04.24-22.06.39:781][129]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_Projectile
+[2025.04.24-22.06.39:783][129]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_ProjectileE6D85AD948ADE6CC4B50CE849A043F2B.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Projectile.uasset'
+[2025.04.24-22.06.39:813][129]LogFileHelpers: InternalPromptForCheckoutAndSave took 251 ms (total: 4.76 sec)
+[2025.04.24-22.06.39:818][129]AssetCheck: New page: Asset Save: BP_Projectile
+[2025.04.24-22.06.39:818][129]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_Projectile.BP_Projectile
+[2025.04.24-22.06.44:412][389]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-22.06.44:491][389]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_Projectile" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Projectile.uasset" SILENT=true
+[2025.04.24-22.06.44:503][389]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_Projectile
+[2025.04.24-22.06.44:504][389]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_ProjectileCE7DCC014689BE1931F77AB46D938E96.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_Projectile.uasset'
+[2025.04.24-22.06.44:537][389]LogFileHelpers: InternalPromptForCheckoutAndSave took 125 ms (total: 4.88 sec)
+[2025.04.24-22.06.44:540][389]AssetCheck: New page: Asset Save: BP_Projectile
+[2025.04.24-22.06.44:541][389]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_Projectile.BP_Projectile
+[2025.04.24-22.10.31:441][670]BlueprintLog: New page: Compile BP_GravityMeteor
+[2025.04.24-22.10.31:519][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.04.24-22.10.32:344][705]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-22.10.32:537][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/BP_GravityMeteor" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_GravityMeteor.uasset" SILENT=true
+[2025.04.24-22.10.32:580][705]LogSavePackage: Moving output files for package: /Game/Game/BP/BP_GravityMeteor
+[2025.04.24-22.10.32:581][705]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/BP_GravityMeteor9CD27C494DF6AC0E2B3AE1A8AC736FF0.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/BP_GravityMeteor.uasset'
+[2025.04.24-22.10.32:600][705]LogFileHelpers: InternalPromptForCheckoutAndSave took 254 ms (total: 5.14 sec)
+[2025.04.24-22.10.32:606][705]AssetCheck: New page: Asset Save: BP_GravityMeteor
+[2025.04.24-22.10.32:606][705]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/BP_GravityMeteor.BP_GravityMeteor
+[2025.04.24-22.10.37:972][974]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2025.04.24-22.10.37:982][974]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.04.24-22.10.38:152][974]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Game/BP/Fuel_PickUp" FILE="../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/Fuel_PickUp.uasset" SILENT=true
+[2025.04.24-22.10.38:164][974]LogSavePackage: Moving output files for package: /Game/Game/BP/Fuel_PickUp
+[2025.04.24-22.10.38:165][974]LogSavePackage: Moving '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Saved/Fuel_PickUp8A95F301417EAC03BF507EBDACC97327.tmp' to '../../../../../../Users/Evan Boomer/Saved Games/OrbitalOutlast/UniProject/Content/Game/BP/Fuel_PickUp.uasset'
+[2025.04.24-22.10.38:195][974]LogFileHelpers: InternalPromptForCheckoutAndSave took 212 ms (total: 5.35 sec)
+[2025.04.24-22.10.38:201][974]AssetCheck: New page: Asset Save: Fuel_PickUp
+[2025.04.24-22.10.38:201][974]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Game/BP/Fuel_PickUp.Fuel_PickUp
